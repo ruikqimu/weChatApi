@@ -1,0 +1,1697 @@
+---------------------------------------------------------------
+[ 2018-09-18T10:04:30+08:00 ] 0.0.0.0 POST /walk/WeChat/getOpenId
+[ info ] localhost/walk/WeChat/getOpenId [运行时间：0.538000s][吞吐率：1.86req/s] [内存消耗：2,428.00kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'WeChat',
+    2 => 'getOpenId',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '37',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => 'aca10f90-e335-ee1e-a672-36f05f26b759',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'code' => '081okPyn1L0Ahj0lMRyn1SlWyn1okPyQ',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T10:06:13+08:00 ] 0.0.0.0 POST /walk/WeChat/getOpenId
+[ info ] localhost/walk/WeChat/getOpenId [运行时间：0.505000s][吞吐率：1.98req/s] [内存消耗：2,428.00kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'WeChat',
+    2 => 'getOpenId',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '37',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '2fec3b17-045a-202d-2b22-d3128f7de04e',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'code' => '081okPyn1L0Ahj0lMRyn1SlWyn1okPyQ',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T10:07:04+08:00 ] 0.0.0.0 POST /walk/WeChat/getOpenId
+[ info ] localhost/walk/WeChat/getOpenId [运行时间：0.507000s][吞吐率：1.97req/s] [内存消耗：2,428.01kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'WeChat',
+    2 => 'getOpenId',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '37',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '50b9be53-7e9c-cbe3-2007-e550550d93ad',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'code' => '081okPyn1L0Ahj0lMRyn1SlWyn1okPyQ',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T10:08:14+08:00 ] 0.0.0.0 POST /walk/WeChat/getOpenId
+[ info ] localhost/walk/WeChat/getOpenId [运行时间：0.516000s][吞吐率：1.94req/s] [内存消耗：2,428.01kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'WeChat',
+    2 => 'getOpenId',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '37',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '52f9a61b-9a30-cd35-90fc-b5781aee8b1d',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'code' => '081okPyn1L0Ahj0lMRyn1SlWyn1okPyQ',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T10:08:22+08:00 ] 0.0.0.0 POST /walk/WeChat/getOpenId
+[ info ] localhost/walk/WeChat/getOpenId [运行时间：0.506000s][吞吐率：1.98req/s] [内存消耗：2,428.01kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'WeChat',
+    2 => 'getOpenId',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '37',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '955fbf1a-ddbe-4e65-24f2-54faeb48c06a',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'code' => '081okPyn1L0Ahj0lMRyn1SlWyn1okPyQ',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T10:08:27+08:00 ] 0.0.0.0 POST /walk/Wechat/getOpenId
+[ info ] localhost/walk/Wechat/getOpenId [运行时间：0.502000s][吞吐率：1.99req/s] [内存消耗：2,428.01kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wechat',
+    2 => 'getOpenId',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '37',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '78c37a0a-1477-8b4e-8656-81b457c08066',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'code' => '081okPyn1L0Ahj0lMRyn1SlWyn1okPyQ',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T10:09:14+08:00 ] 0.0.0.0 POST /walk/Wechat/getOpenId
+[ info ] localhost/walk/Wechat/getOpenId [运行时间：0.507000s][吞吐率：1.97req/s] [内存消耗：2,428.01kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wechat',
+    2 => 'getOpenId',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '37',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '36e1b2d0-a551-be5b-ea0e-339047ccc47b',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'code' => '081okPyn1L0Ahj0lMRyn1SlWyn1okPyQ',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T10:09:31+08:00 ] 0.0.0.0 POST /walk/Wechat/getOpenId
+[ info ] localhost/walk/Wechat/getOpenId [运行时间：0.504000s][吞吐率：1.98req/s] [内存消耗：2,428.01kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wechat',
+    2 => 'getOpenId',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '37',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => 'f8e4586c-37dc-7cb5-4e60-06bc99262841',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'code' => '081okPyn1L0Ahj0lMRyn1SlWyn1okPyQ',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T10:10:15+08:00 ] 0.0.0.0 POST /walk/index/Wechat/getOpenId
+[ info ] localhost/walk/index/Wechat/getOpenId [运行时间：0.523000s][吞吐率：1.91req/s] [内存消耗：2,427.99kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'Wechat',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '37',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => 'c07c269c-8b67-98f1-2a03-045b866745fd',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'code' => '081okPyn1L0Ahj0lMRyn1SlWyn1okPyQ',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T10:10:36+08:00 ] 0.0.0.0 GET /walk/test
+[ info ] localhost/walk/test [运行时间：0.399000s][吞吐率：2.51req/s] [内存消耗：3,727.63kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'postman-token' => 'fdf9ee56-2f31-719c-ea01-f3a05511674c',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Test->test[ D:\wamp64\www\walk\application\index\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.052000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.028000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.015000s ]
+---------------------------------------------------------------
+[ 2018-09-18T10:10:58+08:00 ] 0.0.0.0 POST /walk/WeChat/getOpenId
+[ info ] localhost/walk/WeChat/getOpenId [运行时间：0.503000s][吞吐率：1.99req/s] [内存消耗：2,428.01kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'WeChat',
+    2 => 'getOpenId',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '37',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => 'e865bde6-ded5-2eb1-3330-b6ac8963f436',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'code' => '081okPyn1L0Ahj0lMRyn1SlWyn1okPyQ',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T10:12:59+08:00 ] 0.0.0.0 POST /walk/WeChat/getOpenId
+[ info ] localhost/walk/WeChat/getOpenId [运行时间：2.505000s][吞吐率：0.40req/s] [内存消耗：3,711.76kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'WeChat',
+    2 => 'getOpenId',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '37',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '9b931ec8-562a-df54-87a0-e0f0ac56d727',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'code' => '081okPyn1L0Ahj0lMRyn1SlWyn1okPyQ',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\WeChat->getOpenId[ D:\wamp64\www\walk\application\index\controller\WeChat.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.017000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.015000s ]
+---------------------------------------------------------------
+[ 2018-09-18T10:14:11+08:00 ] 0.0.0.0 POST /walk/WeChat/getOpenId
+[ info ] localhost/walk/WeChat/getOpenId [运行时间：0.529000s][吞吐率：1.89req/s] [内存消耗：3,711.76kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'WeChat',
+    2 => 'getOpenId',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '37',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => 'd3b88560-02d7-fc35-9de3-f0b8bc80da0f',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'code' => '06138wCg0HTEwy1i4YCg0lhfCg038wCr',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\WeChat->getOpenId[ D:\wamp64\www\walk\application\index\controller\WeChat.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.017000s ]
+---------------------------------------------------------------
+[ 2018-09-18T10:16:07+08:00 ] 0.0.0.0 POST /walk/WeChat/getOpenId
+[ info ] localhost/walk/WeChat/getOpenId [运行时间：0.317000s][吞吐率：3.15req/s] [内存消耗：3,600.75kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'WeChat',
+    2 => 'getOpenId',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '37',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '311a3837-1cd2-1daf-87c1-2286d9dcbbc5',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'code' => '06138wCg0HTEwy1i4YCg0lhfCg038wCr',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\WeChat->getOpenId[ D:\wamp64\www\walk\application\index\controller\WeChat.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.036000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.016000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.012000s ]
+---------------------------------------------------------------
+[ 2018-09-18T10:18:41+08:00 ] 0.0.0.0 POST /walk/WeChat/getOpenId
+[ info ] localhost/walk/WeChat/getOpenId [运行时间：0.312000s][吞吐率：3.21req/s] [内存消耗：3,610.44kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'WeChat',
+    2 => 'getOpenId',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '37',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => 'c4a563e3-a2ce-4980-f05d-e5c6d5e0b12d',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'code' => '071L22r32fH6wN04dOo329OZq32L22r-',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\WeChat->getOpenId[ D:\wamp64\www\walk\application\index\controller\WeChat.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.017000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.014000s ]
+---------------------------------------------------------------
+[ 2018-09-18T10:20:42+08:00 ] 0.0.0.0 POST /walk/WeChat/getOpenId
+[ info ] localhost/walk/WeChat/getOpenId [运行时间：0.615000s][吞吐率：1.63req/s] [内存消耗：3,610.34kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'WeChat',
+    2 => 'getOpenId',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '37',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '8dcbac36-b9fd-566a-beb6-7e28c7c2be87',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'code' => '071L22r32fH6wN04dOo329OZq32L22r-',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\WeChat->getOpenId[ D:\wamp64\www\walk\application\index\controller\WeChat.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.098000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.060000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.067000s ]
+---------------------------------------------------------------
+[ 2018-09-18T10:21:24+08:00 ] 0.0.0.0 POST /walk/WeChat/getOpenId
+[ info ] localhost/walk/WeChat/getOpenId [运行时间：0.568000s][吞吐率：1.76req/s] [内存消耗：3,610.55kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'WeChat',
+    2 => 'getOpenId',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '37',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => 'bc765377-f89a-443c-a34d-657f910e3779',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'code' => '071vhTun0ClgMr1Sxuun0gUYun0vhTu5',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\WeChat->getOpenId[ D:\wamp64\www\walk\application\index\controller\WeChat.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.074000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.061000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.057000s ]
+---------------------------------------------------------------
+[ 2018-09-18T10:25:06+08:00 ] 0.0.0.0 GET /walk/test
+[ info ] localhost/walk/test [运行时间：0.462000s][吞吐率：2.16req/s] [内存消耗：3,740.95kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'postman-token' => 'ca7b2463-bdbe-9dab-9f0b-c1201abd9a07',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Test->test[ D:\wamp64\www\walk\application\index\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.038000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.025000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.031000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.053000s ]
+---------------------------------------------------------------
+[ 2018-09-18T11:05:21+08:00 ] 0.0.0.0 POST /walk/Product/getProductDetail
+[ info ] localhost/walk/Product/getProductDetail [运行时间：0.236000s][吞吐率：4.24req/s] [内存消耗：3,610.37kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Product',
+    2 => 'getProductDetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '14',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => 'd4356ea0-9bdc-6ae5-7cfb-8692f09fa7be',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'proNo' => '20180917',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Product->getProductDetail[ D:\wamp64\www\walk\application\index\controller\Product.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.081000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.026000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.025000s ]
+---------------------------------------------------------------
+[ 2018-09-18T11:07:00+08:00 ] 0.0.0.0 POST /walk/Product/getProductDetail
+[ info ] localhost/walk/Product/getProductDetail [运行时间：1.145000s][吞吐率：0.87req/s] [内存消耗：3,751.67kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Product',
+    2 => 'getProductDetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '14',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => 'baf10c4f-66b2-aba1-a6df-a9cd996880d3',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'proNo' => '20180917',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Product->getProductDetail[ D:\wamp64\www\walk\application\index\controller\Product.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.074000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.101000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.118000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.066000s ]
+[ sql ] [ SQL ] SELECT `a`.`proNo`,a.`name`,`a`.`defaultImage`,`a`.`detail`,`a`.`category`,`a`.`price`,`a`.`exchangeType`,`a`.`exchangeCon`,GROUP_CONCAT(b.image) as bimage FROM `product` `a` INNER JOIN `product_img` `b` ON `a`.`proNo`=`b`.`proNo` WHERE  `a`.`proNo` = '20180917'  AND `b`.`status` = 0 GROUP BY `a`.`proNo` ORDER BY b.id desc LIMIT 1 [ RunTime:0.454000s ]
+---------------------------------------------------------------
+[ 2018-09-18T11:11:32+08:00 ] 0.0.0.0 POST /walk/Product/getProductDetail
+[ info ] localhost/walk/Product/getProductDetail [运行时间：0.986000s][吞吐率：1.01req/s] [内存消耗：3,753.38kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Product',
+    2 => 'getProductDetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '14',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => 'ef8ea8f0-7d7c-d3e1-4591-5e5719d9963f',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'proNo' => '20180917',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Product->getProductDetail[ D:\wamp64\www\walk\application\index\controller\Product.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.369000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.075000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.056000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.075000s ]
+[ sql ] [ SQL ] SELECT `a`.`proNo`,a.`name`,`a`.`defaultImage`,`a`.`detail`,`a`.`category`,`a`.`price`,`a`.`exchangeType`,`a`.`exchangeCon`,GROUP_CONCAT(b.image) as bimage FROM `product` `a` INNER JOIN `product_img` `b` ON `a`.`proNo`=`b`.`proNo` WHERE  `a`.`proNo` = '20180917'  AND `b`.`status` = 0 GROUP BY `a`.`proNo` ORDER BY b.id desc LIMIT 1 [ RunTime:0.071000s ]
+---------------------------------------------------------------
+[ 2018-09-18T11:14:16+08:00 ] 0.0.0.0 POST /walk/Product/getProductDetail
+[ info ] localhost/walk/Product/getProductDetail [运行时间：0.730000s][吞吐率：1.37req/s] [内存消耗：3,645.93kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Product',
+    2 => 'getProductDetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '14',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => 'e865a2d5-7e5a-5f2c-5abd-fbab6c4406b3',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'proNo' => '20180917',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Product->getProductDetail[ D:\wamp64\www\walk\application\index\controller\Product.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.099000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.078000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.055000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.099000s ]
+[ sql ] [ SQL ] SELECT `a`.`proNo`,a.`name`,`a`.`defaultImage`,`a`.`detail`,`a`.`category`,`a`.`price`,`a`.`exchangeType`,`a`.`exchangeCon`,GROUP_CONCAT(b.image) as bimage FROM `product` `a` INNER JOIN `product_img` `b` ON `a`.`proNo`=`b`.`proNo` WHERE  `a`.`proNo` = '20180917'  AND `b`.`status` = 0 GROUP BY `a`.`proNo` ORDER BY b.id desc LIMIT 1 [ RunTime:0.265000s ]
+---------------------------------------------------------------
+[ 2018-09-18T11:22:51+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.528000s][吞吐率：1.89req/s] [内存消耗：3,784.30kb] [文件加载：50]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '2417',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '8ed05b44-5176-b6bd-5fbe-abadb12edf45',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary0TMiobEROo0rLKBW',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+  'page' => '1',
+  'wxData' => 'lNQrBbq2usl16jkkWnfaRTtQGIKNvNNGY4jjTMRiyZ2fiIBlrAVwwLMntJ3siaJ07K3fkrxa1fZJxc+bX8pG3VZMaTfzHI5JE6rExk3Toxd/3rDkYkAQP6n4JyVeWuLF7y2oREdxYOB+CZnJbc37yhE0Zt59eUkJ8MT82JBAYFf63b/Xz8vuMTBoHODj2iWDbDEbhCDC8ClDszChTjEdC1RF+zrrQCXj4WUpDJJq66YhmBwg/8Br6YPDUSCH5f/bT3ygTMtb0CDh4JrXwB1gJdZRnrMLO27Zrp/21oZiOENGWjz5POr9BocNFlQ8G2oU7HRomsL0XSIGW3u8bcRSFkYO1DwGsDUzWmHa9MZvFypTv66EL5qnNOG2EKZyG+Qt0sTnmi5kiOMmJLqdxI0CLcIczyZM/cbMujd9jOiY1Kd7uMIyQAigxEDosqpaQ94eDkPpIlQ4dNBzPSOIJXUShgEFCvofT+zLC5/1lspew0n8apBtnXZSHSaVo1CMJT9quYngMr7xZArHJW70l+dnA0pCuzOkVNQZGW8J88dVTs2hAiDiPkXMsu5J0tZG3BwJYbS3L4Rbaowc9+ua9zP0jJ11ghtD1iqvjNlWy685axcFflmP28RGy9vjsbLgZ1wzGRTUni9kDfzVE0XrA65ItgJ5pqBlksCdbYsR2S/r3NLuB9IuBhmUX5k5ZuWZ+G9V3dMtf0D8T9yNtLsNb5PeUWVygylMdPVJsfWQ0sSr8UfXyuUqEWtNYEzE0Csy9OuqHOZXdYwAkmb/mr3rybzhQLqCR67c3IaTria40rhenziwPZ9xZXlvVJBVY9NsXj/tb5jvvx5PxywxaFJFFn+hcsfXokyw9i64iNDJShraxU9mSr5REB09+Ur+K63ugplv+5CCRIPDC43yaWkBOxc9cCy9gvRx6Pfvy9Nk8wA93/llx5vNl/+cl2kxRpq9ueB5Nx16GWSpFWwWL36BBmZtEJjKclD3j7OeRjGjomnsplHbUEBhpmmZ+toaVdrj0xf/IbfHyTjA/Q5pfe0knUURSVECUqmq1wEgRPPRORCredcoHzVVVzm2k6VGFVuH1OzK6edBmMCrIUA+ZN+ql+lMfa2Te0Kgi3h4IEP9IXHFB8R07a+JObfvOGjUrYEZ4DcaTA4AO//jIVv7vaDosGgFPnjX2vJN7XDrseibaH9S54C63FAZHnIgLBdw2jfxtaHL8SMIIyLmLvkKDnvxwkh6e2yTFQXPzebPMQy+khXkk6gfzu1vVLLfhTOiJ5Z3vE85bpCotykatBGGnvJzQKFvVZQf2Lt3QXpuMzkUso2WkxNreQDJ5J4OhMk+wz4GUu3OcxHvKiBSwgRN/aNSabeKwLGZdWnd5WqFgbYntknaCbV/Qxl4zSwU79R8hC2ZfAlg8jT73kift7PmiW3sjB5K4+9tKVOhn4gqX0f9qyTxQNkTmGOpDe5Mr2uaoOJT5gztqlIPC/qZ+m4Il83oyrtwl0vkcchsxWNno7FMv95zRItlE2wHa0rHK4QobiY6FhV9FqRBDB68u9J3z0U6Qm/862c+aFyWTvzNKxyUyWe7bYuhboJncyjCSHlWrkHRS2L4C7JfapoYGGDJP4oIC+mF49RqDRNTOGLUFp2f3QpQM8s=',
+  'wxIv' => '753xjVcA2Bz9B7dQqlyGkQ==',
+  'sessionKey' => '7b1dnMRzgnGj0zuPR4Tmkw==',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.056000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.040000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.034000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.049000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.048000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `name`='ruik',`headImage`='http://123123',`loginDate`='2018-09-18 11:22:51'  WHERE  `openId` = '15189752925' [ RunTime:0.078000s ]
+---------------------------------------------------------------
+[ 2018-09-18T11:23:51+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.393000s][吞吐率：2.54req/s] [内存消耗：3,782.64kb] [文件加载：50]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '2417',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '377574e1-8229-e6c0-ac4b-7e8c0d320716',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarydsgpdB3ocv9AJfhw',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+  'page' => '1',
+  'wxData' => 'lNQrBbq2usl16jkkWnfaRTtQGIKNvNNGY4jjTMRiyZ2fiIBlrAVwwLMntJ3siaJ07K3fkrxa1fZJxc+bX8pG3VZMaTfzHI5JE6rExk3Toxd/3rDkYkAQP6n4JyVeWuLF7y2oREdxYOB+CZnJbc37yhE0Zt59eUkJ8MT82JBAYFf63b/Xz8vuMTBoHODj2iWDbDEbhCDC8ClDszChTjEdC1RF+zrrQCXj4WUpDJJq66YhmBwg/8Br6YPDUSCH5f/bT3ygTMtb0CDh4JrXwB1gJdZRnrMLO27Zrp/21oZiOENGWjz5POr9BocNFlQ8G2oU7HRomsL0XSIGW3u8bcRSFkYO1DwGsDUzWmHa9MZvFypTv66EL5qnNOG2EKZyG+Qt0sTnmi5kiOMmJLqdxI0CLcIczyZM/cbMujd9jOiY1Kd7uMIyQAigxEDosqpaQ94eDkPpIlQ4dNBzPSOIJXUShgEFCvofT+zLC5/1lspew0n8apBtnXZSHSaVo1CMJT9quYngMr7xZArHJW70l+dnA0pCuzOkVNQZGW8J88dVTs2hAiDiPkXMsu5J0tZG3BwJYbS3L4Rbaowc9+ua9zP0jJ11ghtD1iqvjNlWy685axcFflmP28RGy9vjsbLgZ1wzGRTUni9kDfzVE0XrA65ItgJ5pqBlksCdbYsR2S/r3NLuB9IuBhmUX5k5ZuWZ+G9V3dMtf0D8T9yNtLsNb5PeUWVygylMdPVJsfWQ0sSr8UfXyuUqEWtNYEzE0Csy9OuqHOZXdYwAkmb/mr3rybzhQLqCR67c3IaTria40rhenziwPZ9xZXlvVJBVY9NsXj/tb5jvvx5PxywxaFJFFn+hcsfXokyw9i64iNDJShraxU9mSr5REB09+Ur+K63ugplv+5CCRIPDC43yaWkBOxc9cCy9gvRx6Pfvy9Nk8wA93/llx5vNl/+cl2kxRpq9ueB5Nx16GWSpFWwWL36BBmZtEJjKclD3j7OeRjGjomnsplHbUEBhpmmZ+toaVdrj0xf/IbfHyTjA/Q5pfe0knUURSVECUqmq1wEgRPPRORCredcoHzVVVzm2k6VGFVuH1OzK6edBmMCrIUA+ZN+ql+lMfa2Te0Kgi3h4IEP9IXHFB8R07a+JObfvOGjUrYEZ4DcaTA4AO//jIVv7vaDosGgFPnjX2vJN7XDrseibaH9S54C63FAZHnIgLBdw2jfxtaHL8SMIIyLmLvkKDnvxwkh6e2yTFQXPzebPMQy+khXkk6gfzu1vVLLfhTOiJ5Z3vE85bpCotykatBGGnvJzQKFvVZQf2Lt3QXpuMzkUso2WkxNreQDJ5J4OhMk+wz4GUu3OcxHvKiBSwgRN/aNSabeKwLGZdWnd5WqFgbYntknaCbV/Qxl4zSwU79R8hC2ZfAlg8jT73kift7PmiW3sjB5K4+9tKVOhn4gqX0f9qyTxQNkTmGOpDe5Mr2uaoOJT5gztqlIPC/qZ+m4Il83oyrtwl0vkcchsxWNno7FMv95zRItlE2wHa0rHK4QobiY6FhV9FqRBDB68u9J3z0U6Qm/862c+aFyWTvzNKxyUyWe7bYuhboJncyjCSHlWrkHRS2L4C7JfapoYGGDJP4oIC+mF49RqDRNTOGLUFp2f3QpQM8s=',
+  'wxIv' => '753xjVcA2Bz9B7dQqlyGkQ==',
+  'sessionKey' => '7b1dnMRzgnGj0zuPR4Tmkw==',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.050000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.042000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.033000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.031000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.035000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `name`='ruik',`headImage`='http://123123',`loginDate`='2018-09-18 11:23:51'  WHERE  `openId` = '15189752925' [ RunTime:0.053000s ]
+---------------------------------------------------------------
+[ 2018-09-18T11:37:00+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.317000s][吞吐率：3.15req/s] [内存消耗：3,784.23kb] [文件加载：50]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '2417',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => 'fea063de-8132-bab2-e763-17e16782e10f',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarytUQlL7BISjKibUHD',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+  'page' => '1',
+  'wxData' => 'lNQrBbq2usl16jkkWnfaRTtQGIKNvNNGY4jjTMRiyZ2fiIBlrAVwwLMntJ3siaJ07K3fkrxa1fZJxc+bX8pG3VZMaTfzHI5JE6rExk3Toxd/3rDkYkAQP6n4JyVeWuLF7y2oREdxYOB+CZnJbc37yhE0Zt59eUkJ8MT82JBAYFf63b/Xz8vuMTBoHODj2iWDbDEbhCDC8ClDszChTjEdC1RF+zrrQCXj4WUpDJJq66YhmBwg/8Br6YPDUSCH5f/bT3ygTMtb0CDh4JrXwB1gJdZRnrMLO27Zrp/21oZiOENGWjz5POr9BocNFlQ8G2oU7HRomsL0XSIGW3u8bcRSFkYO1DwGsDUzWmHa9MZvFypTv66EL5qnNOG2EKZyG+Qt0sTnmi5kiOMmJLqdxI0CLcIczyZM/cbMujd9jOiY1Kd7uMIyQAigxEDosqpaQ94eDkPpIlQ4dNBzPSOIJXUShgEFCvofT+zLC5/1lspew0n8apBtnXZSHSaVo1CMJT9quYngMr7xZArHJW70l+dnA0pCuzOkVNQZGW8J88dVTs2hAiDiPkXMsu5J0tZG3BwJYbS3L4Rbaowc9+ua9zP0jJ11ghtD1iqvjNlWy685axcFflmP28RGy9vjsbLgZ1wzGRTUni9kDfzVE0XrA65ItgJ5pqBlksCdbYsR2S/r3NLuB9IuBhmUX5k5ZuWZ+G9V3dMtf0D8T9yNtLsNb5PeUWVygylMdPVJsfWQ0sSr8UfXyuUqEWtNYEzE0Csy9OuqHOZXdYwAkmb/mr3rybzhQLqCR67c3IaTria40rhenziwPZ9xZXlvVJBVY9NsXj/tb5jvvx5PxywxaFJFFn+hcsfXokyw9i64iNDJShraxU9mSr5REB09+Ur+K63ugplv+5CCRIPDC43yaWkBOxc9cCy9gvRx6Pfvy9Nk8wA93/llx5vNl/+cl2kxRpq9ueB5Nx16GWSpFWwWL36BBmZtEJjKclD3j7OeRjGjomnsplHbUEBhpmmZ+toaVdrj0xf/IbfHyTjA/Q5pfe0knUURSVECUqmq1wEgRPPRORCredcoHzVVVzm2k6VGFVuH1OzK6edBmMCrIUA+ZN+ql+lMfa2Te0Kgi3h4IEP9IXHFB8R07a+JObfvOGjUrYEZ4DcaTA4AO//jIVv7vaDosGgFPnjX2vJN7XDrseibaH9S54C63FAZHnIgLBdw2jfxtaHL8SMIIyLmLvkKDnvxwkh6e2yTFQXPzebPMQy+khXkk6gfzu1vVLLfhTOiJ5Z3vE85bpCotykatBGGnvJzQKFvVZQf2Lt3QXpuMzkUso2WkxNreQDJ5J4OhMk+wz4GUu3OcxHvKiBSwgRN/aNSabeKwLGZdWnd5WqFgbYntknaCbV/Qxl4zSwU79R8hC2ZfAlg8jT73kift7PmiW3sjB5K4+9tKVOhn4gqX0f9qyTxQNkTmGOpDe5Mr2uaoOJT5gztqlIPC/qZ+m4Il83oyrtwl0vkcchsxWNno7FMv95zRItlE2wHa0rHK4QobiY6FhV9FqRBDB68u9J3z0U6Qm/862c+aFyWTvzNKxyUyWe7bYuhboJncyjCSHlWrkHRS2L4C7JfapoYGGDJP4oIC+mF49RqDRNTOGLUFp2f3QpQM8s=',
+  'wxIv' => '753xjVcA2Bz9B7dQqlyGkQ==',
+  'sessionKey' => '7b1dnMRzgnGj0zuPR4Tmkw==',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.042000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.026000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.022000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.024000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.022000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `name`='ruik',`headImage`='http://123123',`loginDate`='2018-09-18 11:37:00'  WHERE  `openId` = '15189752925' [ RunTime:0.029000s ]
+---------------------------------------------------------------
+[ 2018-09-18T11:37:41+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.248000s][吞吐率：4.03req/s] [内存消耗：3,784.80kb] [文件加载：50]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '2417',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '4a5a40ba-7cb5-0dff-f046-a4753c97e3b3',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarykNntky0aYKYI0XAz',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+  'page' => '1',
+  'wxData' => 'lNQrBbq2usl16jkkWnfaRTtQGIKNvNNGY4jjTMRiyZ2fiIBlrAVwwLMntJ3siaJ07K3fkrxa1fZJxc+bX8pG3VZMaTfzHI5JE6rExk3Toxd/3rDkYkAQP6n4JyVeWuLF7y2oREdxYOB+CZnJbc37yhE0Zt59eUkJ8MT82JBAYFf63b/Xz8vuMTBoHODj2iWDbDEbhCDC8ClDszChTjEdC1RF+zrrQCXj4WUpDJJq66YhmBwg/8Br6YPDUSCH5f/bT3ygTMtb0CDh4JrXwB1gJdZRnrMLO27Zrp/21oZiOENGWjz5POr9BocNFlQ8G2oU7HRomsL0XSIGW3u8bcRSFkYO1DwGsDUzWmHa9MZvFypTv66EL5qnNOG2EKZyG+Qt0sTnmi5kiOMmJLqdxI0CLcIczyZM/cbMujd9jOiY1Kd7uMIyQAigxEDosqpaQ94eDkPpIlQ4dNBzPSOIJXUShgEFCvofT+zLC5/1lspew0n8apBtnXZSHSaVo1CMJT9quYngMr7xZArHJW70l+dnA0pCuzOkVNQZGW8J88dVTs2hAiDiPkXMsu5J0tZG3BwJYbS3L4Rbaowc9+ua9zP0jJ11ghtD1iqvjNlWy685axcFflmP28RGy9vjsbLgZ1wzGRTUni9kDfzVE0XrA65ItgJ5pqBlksCdbYsR2S/r3NLuB9IuBhmUX5k5ZuWZ+G9V3dMtf0D8T9yNtLsNb5PeUWVygylMdPVJsfWQ0sSr8UfXyuUqEWtNYEzE0Csy9OuqHOZXdYwAkmb/mr3rybzhQLqCR67c3IaTria40rhenziwPZ9xZXlvVJBVY9NsXj/tb5jvvx5PxywxaFJFFn+hcsfXokyw9i64iNDJShraxU9mSr5REB09+Ur+K63ugplv+5CCRIPDC43yaWkBOxc9cCy9gvRx6Pfvy9Nk8wA93/llx5vNl/+cl2kxRpq9ueB5Nx16GWSpFWwWL36BBmZtEJjKclD3j7OeRjGjomnsplHbUEBhpmmZ+toaVdrj0xf/IbfHyTjA/Q5pfe0knUURSVECUqmq1wEgRPPRORCredcoHzVVVzm2k6VGFVuH1OzK6edBmMCrIUA+ZN+ql+lMfa2Te0Kgi3h4IEP9IXHFB8R07a+JObfvOGjUrYEZ4DcaTA4AO//jIVv7vaDosGgFPnjX2vJN7XDrseibaH9S54C63FAZHnIgLBdw2jfxtaHL8SMIIyLmLvkKDnvxwkh6e2yTFQXPzebPMQy+khXkk6gfzu1vVLLfhTOiJ5Z3vE85bpCotykatBGGnvJzQKFvVZQf2Lt3QXpuMzkUso2WkxNreQDJ5J4OhMk+wz4GUu3OcxHvKiBSwgRN/aNSabeKwLGZdWnd5WqFgbYntknaCbV/Qxl4zSwU79R8hC2ZfAlg8jT73kift7PmiW3sjB5K4+9tKVOhn4gqX0f9qyTxQNkTmGOpDe5Mr2uaoOJT5gztqlIPC/qZ+m4Il83oyrtwl0vkcchsxWNno7FMv95zRItlE2wHa0rHK4QobiY6FhV9FqRBDB68u9J3z0U6Qm/862c+aFyWTvzNKxyUyWe7bYuhboJncyjCSHlWrkHRS2L4C7JfapoYGGDJP4oIC+mF49RqDRNTOGLUFp2f3QpQM8s=',
+  'wxIv' => '753xjVcA2Bz9B7dQqlyGkQ==',
+  'sessionKey' => '7b1dnMRzgnGj0zuPR4Tmkw==',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.018000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `name`='ruik',`headImage`='http://123123',`loginDate`='2018-09-18 11:37:41'  WHERE  `openId` = '15189752925' [ RunTime:0.016000s ]
+---------------------------------------------------------------
+[ 2018-09-18T11:42:35+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.389000s][吞吐率：2.57req/s] [内存消耗：3,771.27kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '2417',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '7ff0e9d9-482e-a64b-4014-88210a83694b',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarylrrlckXLLX4WmRfm',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+  'page' => '1',
+  'wxData' => 'lNQrBbq2usl16jkkWnfaRTtQGIKNvNNGY4jjTMRiyZ2fiIBlrAVwwLMntJ3siaJ07K3fkrxa1fZJxc+bX8pG3VZMaTfzHI5JE6rExk3Toxd/3rDkYkAQP6n4JyVeWuLF7y2oREdxYOB+CZnJbc37yhE0Zt59eUkJ8MT82JBAYFf63b/Xz8vuMTBoHODj2iWDbDEbhCDC8ClDszChTjEdC1RF+zrrQCXj4WUpDJJq66YhmBwg/8Br6YPDUSCH5f/bT3ygTMtb0CDh4JrXwB1gJdZRnrMLO27Zrp/21oZiOENGWjz5POr9BocNFlQ8G2oU7HRomsL0XSIGW3u8bcRSFkYO1DwGsDUzWmHa9MZvFypTv66EL5qnNOG2EKZyG+Qt0sTnmi5kiOMmJLqdxI0CLcIczyZM/cbMujd9jOiY1Kd7uMIyQAigxEDosqpaQ94eDkPpIlQ4dNBzPSOIJXUShgEFCvofT+zLC5/1lspew0n8apBtnXZSHSaVo1CMJT9quYngMr7xZArHJW70l+dnA0pCuzOkVNQZGW8J88dVTs2hAiDiPkXMsu5J0tZG3BwJYbS3L4Rbaowc9+ua9zP0jJ11ghtD1iqvjNlWy685axcFflmP28RGy9vjsbLgZ1wzGRTUni9kDfzVE0XrA65ItgJ5pqBlksCdbYsR2S/r3NLuB9IuBhmUX5k5ZuWZ+G9V3dMtf0D8T9yNtLsNb5PeUWVygylMdPVJsfWQ0sSr8UfXyuUqEWtNYEzE0Csy9OuqHOZXdYwAkmb/mr3rybzhQLqCR67c3IaTria40rhenziwPZ9xZXlvVJBVY9NsXj/tb5jvvx5PxywxaFJFFn+hcsfXokyw9i64iNDJShraxU9mSr5REB09+Ur+K63ugplv+5CCRIPDC43yaWkBOxc9cCy9gvRx6Pfvy9Nk8wA93/llx5vNl/+cl2kxRpq9ueB5Nx16GWSpFWwWL36BBmZtEJjKclD3j7OeRjGjomnsplHbUEBhpmmZ+toaVdrj0xf/IbfHyTjA/Q5pfe0knUURSVECUqmq1wEgRPPRORCredcoHzVVVzm2k6VGFVuH1OzK6edBmMCrIUA+ZN+ql+lMfa2Te0Kgi3h4IEP9IXHFB8R07a+JObfvOGjUrYEZ4DcaTA4AO//jIVv7vaDosGgFPnjX2vJN7XDrseibaH9S54C63FAZHnIgLBdw2jfxtaHL8SMIIyLmLvkKDnvxwkh6e2yTFQXPzebPMQy+khXkk6gfzu1vVLLfhTOiJ5Z3vE85bpCotykatBGGnvJzQKFvVZQf2Lt3QXpuMzkUso2WkxNreQDJ5J4OhMk+wz4GUu3OcxHvKiBSwgRN/aNSabeKwLGZdWnd5WqFgbYntknaCbV/Qxl4zSwU79R8hC2ZfAlg8jT73kift7PmiW3sjB5K4+9tKVOhn4gqX0f9qyTxQNkTmGOpDe5Mr2uaoOJT5gztqlIPC/qZ+m4Il83oyrtwl0vkcchsxWNno7FMv95zRItlE2wHa0rHK4QobiY6FhV9FqRBDB68u9J3z0U6Qm/862c+aFyWTvzNKxyUyWe7bYuhboJncyjCSHlWrkHRS2L4C7JfapoYGGDJP4oIC+mF49RqDRNTOGLUFp2f3QpQM8s=',
+  'wxIv' => '753xjVcA2Bz9B7dQqlyGkQ==',
+  'sessionKey' => '7b1dnMRzgnGj0zuPR4Tmkw==',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.024000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.021000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `name`='ruik',`headImage`='http://123123',`loginDate`='2018-09-18 11:42:35'  WHERE  `openId` = '15189752925' [ RunTime:0.019000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_step_log` [ RunTime:0.017000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-18'  AND `type` = 0 LIMIT 1 [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT SUM(step) AS tp_sum FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-18' LIMIT 1 [ RunTime:0.012000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `stepNumber`='1900'  WHERE  `openid` = '15189752925' [ RunTime:0.021000s ]
+[ sql ] [ SQL ] SELECT `headImage` FROM `user` WHERE  `shareOpenId` = '15189752925' ORDER BY id desc LIMIT 4 [ RunTime:0.013000s ]
+---------------------------------------------------------------
+[ 2018-09-18T14:47:01+08:00 ] 0.0.0.0 POST /walk/Product/checkProductChange
+[ info ] localhost/walk/Product/checkProductChange [运行时间：0.264000s][吞吐率：3.79req/s] [内存消耗：3,675.01kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Product',
+    2 => 'checkProductChange',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '33',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '1cb3a7ef-48dc-535b-4617-3814cfe94d62',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'proNo' => '20180917',
+  'openId' => '15189752925',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Product->checkProductChange[ D:\wamp64\www\walk\application\index\controller\Product.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT `proNo`,`name`,`defaultImage`,`category`,`exchangeType`,`exchangeCon` FROM `product` WHERE  `proNo` = '20180917' LIMIT 1 [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT `walkCoin`,`stepNumber` FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.013000s ]
+---------------------------------------------------------------
+[ 2018-09-18T15:28:54+08:00 ] 0.0.0.0 POST /walk/Product/checkProductChange
+[ info ] localhost/walk/Product/checkProductChange [运行时间：0.207000s][吞吐率：4.83req/s] [内存消耗：3,693.76kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Product',
+    2 => 'checkProductChange',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '33',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '88ccc543-be44-1f58-e396-bf9c83bc0d92',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'proNo' => '20180917',
+  'openId' => '15189752925',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Product->checkProductChange[ D:\wamp64\www\walk\application\index\controller\Product.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT `proNo`,`name`,`defaultImage`,`category`,`exchangeType`,`exchangeCon` FROM `product` WHERE  `proNo` = '20180917' LIMIT 1 [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT `walkCoin`,`stepNumber` FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.007000s ]
+---------------------------------------------------------------
+[ 2018-09-18T15:29:13+08:00 ] 0.0.0.0 POST /walk/Product/exChangeProduct
+[ info ] localhost/walk/Product/exChangeProduct [运行时间：0.345000s][吞吐率：2.90req/s] [内存消耗：3,725.15kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Product',
+    2 => 'exChangeProduct',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '33',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => 'c14536c3-d803-9fbb-280f-7d2b857fec6c',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'proNo' => '20180917',
+  'openId' => '15189752925',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Product->exChangeProduct[ D:\wamp64\www\walk\application\index\controller\Product.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT `proNo`,`category`,`exchangeType`,`exchangeCon` FROM `product` WHERE  `proNo` = '20180917' LIMIT 1 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.016000s ]
+[ sql ] [ SQL ] SELECT `walkCoin`,`stepNumber` FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product_exchange` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] INSERT INTO `product_exchange` (`openId` , `proNo` , `type` , `number` , `date` , `time`) VALUES ('15189752925' , '20180917' , 0 , '10000' , '2018-09-18 15:29:13' , '2018-09-18') [ RunTime:0.014000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `stepNumber`=`stepNumber`-10000  WHERE  `openId` = '15189752925' [ RunTime:0.017000s ]
+---------------------------------------------------------------
+[ 2018-09-18T15:42:29+08:00 ] 0.0.0.0 POST /walk/Product/exChangeProduct
+[ info ] localhost/walk/Product/exChangeProduct [运行时间：0.386000s][吞吐率：2.59req/s] [内存消耗：3,733.66kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Product',
+    2 => 'exChangeProduct',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '33',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => 'a29e2976-bf44-b38e-38b3-69991cdad238',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'proNo' => '20180917',
+  'openId' => '15189752925',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Product->exChangeProduct[ D:\wamp64\www\walk\application\index\controller\Product.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT `proNo`,`category`,`exchangeType`,`exchangeCon` FROM `product` WHERE  `proNo` = '20180917' LIMIT 1 [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT `walkCoin`,`stepNumber` FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product_exchange` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] INSERT INTO `product_exchange` (`openId` , `proNo` , `type` , `number` , `date` , `time`) VALUES ('15189752925' , '20180917' , 0 , '10000' , '2018-09-18 15:42:29' , '2018-09-18') [ RunTime:0.013000s ]
+[ sql ] [ SQL ] UPDATE `product`  SET `category`=`category`-1  WHERE  `proNo` = '20180917' [ RunTime:0.013000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `stepNumber`=`stepNumber`-10000  WHERE  `openId` = '15189752925' [ RunTime:0.012000s ]
+---------------------------------------------------------------
+[ 2018-09-18T16:13:53+08:00 ] 0.0.0.0 POST /walk/User/getUserAddress
+[ info ] localhost/walk/User/getUserAddress [运行时间：0.230000s][吞吐率：4.35req/s] [内存消耗：3,631.97kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'User',
+    2 => 'getUserAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '33',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '0c0901fb-22d5-05bb-88da-467ff89919eb',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'proNo' => '20180917',
+  'openId' => '15189752925',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\User->getUserAddress[ D:\wamp64\www\walk\application\index\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.028000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.021000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.018000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.020000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `openId` = '15189752925' [ RunTime:0.019000s ]
+---------------------------------------------------------------
+[ 2018-09-18T16:14:01+08:00 ] 0.0.0.0 POST /walk/User/getUserAddress
+[ info ] localhost/walk/User/getUserAddress [运行时间：0.162000s][吞吐率：6.17req/s] [内存消耗：3,631.45kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'User',
+    2 => 'getUserAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '33',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '01368188-9526-f97b-20a2-6025fa9b4dc7',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'proNo' => '20180917',
+  'openId' => '15189752925',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\User->getUserAddress[ D:\wamp64\www\walk\application\index\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `openId` = '15189752925' [ RunTime:0.008000s ]
+---------------------------------------------------------------
+[ 2018-09-18T16:43:13+08:00 ] 0.0.0.0 POST /walk/User/addUserAddress
+[ info ] localhost/walk/User/addUserAddress [运行时间：0.356000s][吞吐率：2.81req/s] [内存消耗：3,830.35kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'User',
+    2 => 'addUserAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '235',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => 'c94020bc-073a-3864-0398-0fe63ac1cd65',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'proNo' => '20180917',
+  'openId' => '15189752925',
+  'name' => 'ruik',
+  'mobile' => '15189752925',
+  'prov' => '浙江省',
+  'city' => '杭州市',
+  'area' => '余杭区',
+  'address' => '湖山帝景湾19幢',
+  'isMain' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\User->addUserAddress[ D:\wamp64\www\walk\application\index\controller\User.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.029000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.025000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.016000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] INSERT INTO `user_address` (`openId` , `name` , `mobile` , `prov` , `city` , `area` , `address` , `isMain`) VALUES ('15189752925' , 'ruik' , '15189752925' , '浙江省' , '杭州市' , '余杭区' , '湖山帝景湾19幢' , 1) [ RunTime:0.014000s ]
+[ sql ] [ SQL ] UPDATE `user_address`  SET `isMain`=0  WHERE  `openId` = '15189752925'  AND `id` <> 1 [ RunTime:0.013000s ]
+---------------------------------------------------------------
+[ 2018-09-18T16:44:26+08:00 ] 0.0.0.0 POST /walk/User/addUserAddress
+[ info ] localhost/walk/User/addUserAddress [运行时间：0.277000s][吞吐率：3.61req/s] [内存消耗：3,832.95kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'User',
+    2 => 'addUserAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '235',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '0a9039e9-2469-6067-dd55-fd039edabf17',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'proNo' => '20180917',
+  'openId' => '15189752925',
+  'name' => 'ruik',
+  'mobile' => '15189752925',
+  'prov' => '浙江省',
+  'city' => '杭州市',
+  'area' => '余杭区',
+  'address' => '湖山帝景湾19幢',
+  'isMain' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\User->addUserAddress[ D:\wamp64\www\walk\application\index\controller\User.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.017000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] INSERT INTO `user_address` (`openId` , `name` , `mobile` , `prov` , `city` , `area` , `address` , `isMain` , `createDate`) VALUES ('15189752925' , 'ruik' , '15189752925' , '浙江省' , '杭州市' , '余杭区' , '湖山帝景湾19幢' , 1 , '2018-09-18 16:44:26') [ RunTime:0.015000s ]
+[ sql ] [ SQL ] UPDATE `user_address`  SET `isMain`=0  WHERE  `openId` = '15189752925'  AND `id` <> 1 [ RunTime:0.015000s ]
+---------------------------------------------------------------
+[ 2018-09-18T16:45:29+08:00 ] 0.0.0.0 POST /walk/User/addUserAddress
+[ info ] localhost/walk/User/addUserAddress [运行时间：0.226000s][吞吐率：4.42req/s] [内存消耗：3,637.47kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'User',
+    2 => 'addUserAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '235',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => 'e5a6c969-40da-cc3a-09fc-5900e47cef71',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'proNo' => '20180917',
+  'openId' => '15189752925',
+  'name' => 'ruik',
+  'mobile' => '15189752925',
+  'prov' => '浙江省',
+  'city' => '杭州市',
+  'area' => '余杭区',
+  'address' => '湖山帝景湾19幢',
+  'isMain' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\User->addUserAddress[ D:\wamp64\www\walk\application\index\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.018000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] INSERT INTO `user_address` (`openId` , `name` , `mobile` , `prov` , `city` , `area` , `address` , `isMain` , `createDate`) VALUES ('15189752925' , 'ruik' , '15189752925' , '浙江省' , '杭州市' , '余杭区' , '湖山帝景湾19幢' , 1 , '2018-09-18 16:45:29') [ RunTime:0.014000s ]
+---------------------------------------------------------------
+[ 2018-09-18T16:47:14+08:00 ] 0.0.0.0 POST /walk/User/addUserAddress
+[ info ] localhost/walk/User/addUserAddress [运行时间：0.174000s][吞吐率：5.75req/s] [内存消耗：3,638.46kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'User',
+    2 => 'addUserAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '235',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => 'db93030b-baff-62d8-267b-ddd9b1b5f80a',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'proNo' => '20180917',
+  'openId' => '15189752925',
+  'name' => 'ruik',
+  'mobile' => '15189752925',
+  'prov' => '浙江省',
+  'city' => '杭州市',
+  'area' => '余杭区',
+  'address' => '湖山帝景湾19幢',
+  'isMain' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\User->addUserAddress[ D:\wamp64\www\walk\application\index\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] INSERT INTO `user_address` (`openId` , `name` , `mobile` , `prov` , `city` , `area` , `address` , `isMain` , `createDate`) VALUES ('15189752925' , 'ruik' , '15189752925' , '浙江省' , '杭州市' , '余杭区' , '湖山帝景湾19幢' , 1 , '2018-09-18 16:47:14') [ RunTime:0.010000s ]
+---------------------------------------------------------------
+[ 2018-09-18T16:47:34+08:00 ] 0.0.0.0 POST /walk/User/addUserAddress
+[ info ] localhost/walk/User/addUserAddress [运行时间：0.240000s][吞吐率：4.17req/s] [内存消耗：3,833.81kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'User',
+    2 => 'addUserAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '235',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '175c72af-4e48-aa36-126d-2691e85c464e',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'proNo' => '20180917',
+  'openId' => '15189752925',
+  'name' => 'ruik',
+  'mobile' => '15189752925',
+  'prov' => '浙江省',
+  'city' => '杭州市',
+  'area' => '余杭区',
+  'address' => '湖山帝景湾19幢',
+  'isMain' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\User->addUserAddress[ D:\wamp64\www\walk\application\index\controller\User.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] INSERT INTO `user_address` (`openId` , `name` , `mobile` , `prov` , `city` , `area` , `address` , `isMain` , `createDate`) VALUES ('15189752925' , 'ruik' , '15189752925' , '浙江省' , '杭州市' , '余杭区' , '湖山帝景湾19幢' , 1 , '2018-09-18 16:47:34') [ RunTime:0.009000s ]
+[ sql ] [ SQL ] UPDATE `user_address`  SET `isMain`=0  WHERE  `openId` = '15189752925'  AND `id` <> 1 [ RunTime:0.007000s ]
+---------------------------------------------------------------
+[ 2018-09-18T16:47:41+08:00 ] 0.0.0.0 POST /walk/User/addUserAddress
+[ info ] localhost/walk/User/addUserAddress [运行时间：0.214000s][吞吐率：4.67req/s] [内存消耗：3,833.78kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'User',
+    2 => 'addUserAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '235',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => 'fcbdf3ca-825c-8f34-03db-c4c60eb46ab4',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'proNo' => '20180917',
+  'openId' => '15189752925',
+  'name' => 'ruik',
+  'mobile' => '15189752925',
+  'prov' => '浙江省',
+  'city' => '杭州市',
+  'area' => '余杭区',
+  'address' => '湖山帝景湾19幢',
+  'isMain' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\User->addUserAddress[ D:\wamp64\www\walk\application\index\controller\User.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] INSERT INTO `user_address` (`openId` , `name` , `mobile` , `prov` , `city` , `area` , `address` , `isMain` , `createDate`) VALUES ('15189752925' , 'ruik' , '15189752925' , '浙江省' , '杭州市' , '余杭区' , '湖山帝景湾19幢' , 1 , '2018-09-18 16:47:41') [ RunTime:0.007000s ]
+[ sql ] [ SQL ] UPDATE `user_address`  SET `isMain`=0  WHERE  `openId` = '15189752925'  AND `id` <> 2 [ RunTime:0.007000s ]
+---------------------------------------------------------------
+[ 2018-09-18T16:48:05+08:00 ] 0.0.0.0 POST /walk/User/addUserAddress
+[ info ] localhost/walk/User/addUserAddress [运行时间：0.239000s][吞吐率：4.18req/s] [内存消耗：3,833.85kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'User',
+    2 => 'addUserAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '249',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '943f9af5-6bb7-5bbe-ad49-d32f88cb1684',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'proNo' => '20180917',
+  'openId' => '15189752925',
+  'name' => 'ruik',
+  'mobile' => '15189752925',
+  'prov' => '浙江省',
+  'city' => '杭州市1',
+  'area' => '余杭区1',
+  'address' => '湖山帝景湾19幢',
+  'isMain' => '1',
+  'addressId' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\User->addUserAddress[ D:\wamp64\www\walk\application\index\controller\User.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] UPDATE `user_address`  SET `name`='ruik',`mobile`='15189752925',`prov`='浙江省',`city`='杭州市1',`area`='余杭区1',`address`='湖山帝景湾19幢',`isMain`=1,`updateDate`='2018-09-18 16:48:05'  WHERE  `id` = 1  AND `openId` = '15189752925' [ RunTime:0.011000s ]
+[ sql ] [ SQL ] UPDATE `user_address`  SET `isMain`=0  WHERE  `openId` = '15189752925'  AND `id` <> 1 [ RunTime:0.009000s ]
+---------------------------------------------------------------
+[ 2018-09-18T16:52:08+08:00 ] 0.0.0.0 POST /walk/User/getUserAddress
+[ info ] localhost/walk/User/getUserAddress [运行时间：0.204000s][吞吐率：4.90req/s] [内存消耗：3,673.76kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'User',
+    2 => 'getUserAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '249',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => 'af3f3f37-987c-dbed-cc88-b6c1e75563f1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'proNo' => '20180917',
+  'openId' => '15189752925',
+  'name' => 'ruik',
+  'mobile' => '15189752925',
+  'prov' => '浙江省',
+  'city' => '杭州市1',
+  'area' => '余杭区1',
+  'address' => '湖山帝景湾19幢',
+  'isMain' => '1',
+  'addressId' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\User->getUserAddress[ D:\wamp64\www\walk\application\index\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT id as addressId,`name`,`mobile`,`prov`,`city`,`area`,`address`,`isMain` FROM `user_address` WHERE  `openId` = '15189752925' [ RunTime:0.009000s ]
+---------------------------------------------------------------
+[ 2018-09-18T16:56:31+08:00 ] 0.0.0.0 POST /walk/User/getUserAddress
+[ info ] localhost/walk/User/getUserAddress [运行时间：0.209000s][吞吐率：4.78req/s] [内存消耗：3,680.27kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'User',
+    2 => 'getUserAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '249',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '28fc2155-ff57-fcbb-53fb-f47560a2cdc7',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'proNo' => '20180917',
+  'openId' => '15189752925',
+  'name' => 'ruik',
+  'mobile' => '15189752925',
+  'prov' => '浙江省',
+  'city' => '杭州市1',
+  'area' => '余杭区1',
+  'address' => '湖山帝景湾19幢',
+  'isMain' => '1',
+  'addressId' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\User->getUserAddress[ D:\wamp64\www\walk\application\index\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT id as addressId,`name`,`mobile`,`prov`,`city`,`area`,`address`,`isMain` FROM `user_address` WHERE  `openId` = '15189752925'  AND `status` = 1 [ RunTime:0.013000s ]
+---------------------------------------------------------------
+[ 2018-09-18T17:00:42+08:00 ] 0.0.0.0 POST /walk/User/deleteAddress
+[ info ] localhost/walk/User/deleteAddress [运行时间：0.403000s][吞吐率：2.48req/s] [内存消耗：3,834.94kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'User',
+    2 => 'deleteAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '249',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '7e01eaef-b30d-71c5-d525-9875a02dd652',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'proNo' => '20180917',
+  'openId' => '15189752925',
+  'name' => 'ruik',
+  'mobile' => '15189752925',
+  'prov' => '浙江省',
+  'city' => '杭州市1',
+  'area' => '余杭区1',
+  'address' => '湖山帝景湾19幢',
+  'isMain' => '1',
+  'addressId' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\User->deleteAddress[ D:\wamp64\www\walk\application\index\controller\User.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.047000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.054000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.062000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.041000s ]
+[ sql ] [ SQL ] UPDATE `user_address`  SET `status`=2,`deleteDate`='2018-09-18 17:00:42'  WHERE  `openId` = '15189752925'  AND `id` = 2 [ RunTime:0.047000s ]

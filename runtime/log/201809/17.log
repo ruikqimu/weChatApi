@@ -1,0 +1,2793 @@
+---------------------------------------------------------------
+[ 2018-09-17T10:41:29+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.506000s][吞吐率：1.98req/s] [内存消耗：3,633.22kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '237',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => 'db0ebcfb-c62f-2375-393e-92fd9fb5ebd8',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryjswuZSCpJq2hW9Ub',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'a' => 'b',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.030000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` [ RunTime:0.008000s ]
+---------------------------------------------------------------
+[ 2018-09-17T10:41:43+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.269000s][吞吐率：3.72req/s] [内存消耗：3,714.35kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '249',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '076caaca-2ea9-c2fd-2a75-2ab52e2bd6ef',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarylD7C8x0XRkszRzi7',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'stepNumber' => '3000',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.013000s ]
+---------------------------------------------------------------
+[ 2018-09-17T10:42:43+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.225000s][吞吐率：4.44req/s] [内存消耗：3,722.11kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '453',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => 'f9e8f7e7-c83b-2467-a61b-11ddf3adcf7b',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryK9FU7STLjZ5BCuWq',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'stepNumber' => '3000',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.008000s ]
+[ sql ] [ SQL ] INSERT INTO `user` (`openId` , `name` , `headImage` , `createDate` , `loginDate` , `stepNumber`) VALUES ('15189752925' , 'ruik' , 'http://123123' , '2018-09-17 10:42:43' , '2018-09-17 10:42:43' , '3000') [ RunTime:0.016000s ]
+---------------------------------------------------------------
+[ 2018-09-17T10:43:25+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.138000s][吞吐率：7.25req/s] [内存消耗：3,601.12kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '453',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '249aa882-b54e-f8b8-3626-f6afe6e8b77d',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary4BUNF3dJd4jxvEB5',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'stepNumber' => '3000',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` [ RunTime:0.010000s ]
+---------------------------------------------------------------
+[ 2018-09-17T10:43:53+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.389000s][吞吐率：2.57req/s] [内存消耗：3,669.38kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '453',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '802baaf8-0ef6-a49e-4e6a-ac8506245786',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarymTXT6T9ZTXcz9KJB',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'stepNumber' => '3000',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.035000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.041000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `name`='ruik',`headImage`='http://123123',`loginDate`='2018-09-17 10:43:53',`stepNumber`='6000'  WHERE  `openId` = '15189752925' [ RunTime:0.023000s ]
+[ sql ] [ SQL ] SELECT `headImage` FROM `user` WHERE  `shareOpenId` = '15189752925' ORDER BY id desc LIMIT 4 [ RunTime:0.008000s ]
+---------------------------------------------------------------
+[ 2018-09-17T10:44:14+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.410000s][吞吐率：2.44req/s] [内存消耗：3,669.39kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '453',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => 'aabb7ec4-b3fa-b89b-c252-6ff837cc96e0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryNoSLf3NY4KccGM0L',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'stepNumber' => '3000',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.021000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.022000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.039000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.046000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `name`='ruik',`headImage`='http://123123',`loginDate`='2018-09-17 10:44:14',`stepNumber`='9000'  WHERE  `openId` = '15189752925' [ RunTime:0.056000s ]
+[ sql ] [ SQL ] SELECT `headImage` FROM `user` WHERE  `shareOpenId` = '15189752925' ORDER BY id desc LIMIT 4 [ RunTime:0.061000s ]
+---------------------------------------------------------------
+[ 2018-09-17T10:45:14+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.211000s][吞吐率：4.74req/s] [内存消耗：3,669.45kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '453',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '5c2c89e5-14e8-ef0f-1e10-b4fe1a1a208e',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryTh8omNV4eoO3Ak67',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'stepNumber' => '3000',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.009000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `name`='ruik',`headImage`='http://123123',`loginDate`='2018-09-17 10:45:14',`stepNumber`='12000'  WHERE  `openId` = '15189752925' [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT `headImage` FROM `user` WHERE  `shareOpenId` = '15189752925' ORDER BY id desc LIMIT 4 [ RunTime:0.007000s ]
+---------------------------------------------------------------
+[ 2018-09-17T10:46:12+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.379000s][吞吐率：2.64req/s] [内存消耗：3,669.63kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '453',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '9e0d3c91-5699-b1de-32e4-1d7830449b70',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryJ2pBt7DGkI7FZwWo',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'stepNumber' => '3000',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.047000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.042000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.027000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `name`='ruik',`headImage`='http://123123',`loginDate`='2018-09-17 10:46:11',`stepNumber`='15000'  WHERE  `openId` = '15189752925' [ RunTime:0.046000s ]
+[ sql ] [ SQL ] SELECT `headImage` FROM `user` WHERE  `shareOpenId` = '15189752925' ORDER BY id desc LIMIT 4 [ RunTime:0.013000s ]
+---------------------------------------------------------------
+[ 2018-09-17T10:47:36+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.188000s][吞吐率：5.32req/s] [内存消耗：3,661.54kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '453',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => 'd417c9cf-7eaf-eaeb-6e0e-e3c7aa3be390',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryiyxbY71tiK7lGQ57',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'stepNumber' => '3000',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.009000s ]
+[ sql ] [ SQL ] INSERT INTO `user` (`openId` , `name` , `headImage` , `createDate` , `loginDate` , `stepNumber`) VALUES ('15189752925' , 'ruik' , 'http://123123' , '2018-09-17 10:47:36' , '2018-09-17 10:47:36' , '3000') [ RunTime:0.012000s ]
+---------------------------------------------------------------
+[ 2018-09-17T11:17:43+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：1.143000s][吞吐率：0.87req/s] [内存消耗：3,689.10kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '453',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => 'a621afde-9643-1631-70b9-c43bcb567e4f',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryrQB51ORqUJh7PzfO',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'stepNumber' => '3000',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.400000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.055000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.081000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.058000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.059000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_step` [ RunTime:0.068000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_step` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17' LIMIT 1 [ RunTime:0.079000s ]
+[ sql ] [ SQL ] INSERT INTO `user_step` (`openId` , `date` , `step`) VALUES ('15189752925' , '2018-09-17' , '3000') [ RunTime:0.076000s ]
+[ sql ] [ SQL ] INSERT INTO `user` (`openId` , `name` , `headImage` , `createDate` , `loginDate` , `stepNumber`) VALUES ('15189752925' , 'ruik' , 'http://123123' , '2018-09-17 11:17:43' , '2018-09-17 11:17:43' , '3000') [ RunTime:0.069000s ]
+---------------------------------------------------------------
+[ 2018-09-17T11:17:50+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.829000s][吞吐率：1.21req/s] [内存消耗：3,689.80kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '453',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => 'e9f91b2c-802e-3432-0ac9-e3d9809e55a2',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarysS1ybTQqN1dph9yh',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'stepNumber' => '3000',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.089000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.082000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.067000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.070000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.066000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_step` [ RunTime:0.080000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_step` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17' LIMIT 1 [ RunTime:0.070000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `name`='ruik',`headImage`='http://123123',`loginDate`='2018-09-17 11:17:50'  WHERE  `openId` = '15189752925' [ RunTime:0.069000s ]
+[ sql ] [ SQL ] SELECT `headImage` FROM `user` WHERE  `shareOpenId` = '15189752925' ORDER BY id desc LIMIT 4 [ RunTime:0.075000s ]
+---------------------------------------------------------------
+[ 2018-09-17T11:18:23+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.757000s][吞吐率：1.32req/s] [内存消耗：3,680.45kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '453',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '385d7ff7-0552-beb1-fd7f-6e0e40c5924a',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryzIs4hYAhVOwIZWze',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'stepNumber' => '3000',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.110000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.068000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.052000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.067000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.079000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_step` [ RunTime:0.065000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_step` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17' LIMIT 1 [ RunTime:0.076000s ]
+[ sql ] [ SQL ] INSERT INTO `user` (`openId` , `name` , `headImage` , `createDate` , `loginDate`) VALUES ('15189752925' , 'ruik' , 'http://123123' , '2018-09-17 11:18:22' , '2018-09-17 11:18:22') [ RunTime:0.079000s ]
+---------------------------------------------------------------
+[ 2018-09-17T11:18:26+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.792000s][吞吐率：1.26req/s] [内存消耗：3,689.41kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '453',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '9eb5b0b7-eb8b-0815-3bf1-a104ed2fda7a',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryYqqTm8UnNCrCETuP',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'stepNumber' => '3000',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.117000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.062000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.081000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.044000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.044000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_step` [ RunTime:0.058000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_step` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17' LIMIT 1 [ RunTime:0.078000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `name`='ruik',`headImage`='http://123123',`loginDate`='2018-09-17 11:18:26'  WHERE  `openId` = '15189752925' [ RunTime:0.069000s ]
+[ sql ] [ SQL ] SELECT `headImage` FROM `user` WHERE  `shareOpenId` = '15189752925' ORDER BY id desc LIMIT 4 [ RunTime:0.060000s ]
+---------------------------------------------------------------
+[ 2018-09-17T11:18:32+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.837000s][吞吐率：1.19req/s] [内存消耗：3,689.41kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '453',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => 'fd04fa9b-8d10-9983-08f2-e9f66ce62043',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryO7DenHoMQjROzhck',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'stepNumber' => '3000',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.116000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.055000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.062000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.077000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.076000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_step` [ RunTime:0.061000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_step` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17' LIMIT 1 [ RunTime:0.070000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `name`='ruik',`headImage`='http://123123',`loginDate`='2018-09-17 11:18:32'  WHERE  `openId` = '15189752925' [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `headImage` FROM `user` WHERE  `shareOpenId` = '15189752925' ORDER BY id desc LIMIT 4 [ RunTime:0.071000s ]
+---------------------------------------------------------------
+[ 2018-09-17T11:22:44+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.224000s][吞吐率：4.46req/s] [内存消耗：3,681.40kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '453',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '1623ce0a-0d7c-25e9-617a-3c7b0a7a4f74',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryzKcqijfdDCM85cCq',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'stepNumber' => '3000',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_step` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_step` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17' LIMIT 1 [ RunTime:0.008000s ]
+[ sql ] [ SQL ] INSERT INTO `user` (`openId` , `name` , `headImage` , `createDate` , `loginDate`) VALUES ('15189752925' , 'ruik' , 'http://123123' , '2018-09-17 11:22:44' , '2018-09-17 11:22:44') [ RunTime:0.023000s ]
+---------------------------------------------------------------
+[ 2018-09-17T11:22:51+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.335000s][吞吐率：2.99req/s] [内存消耗：3,690.13kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '453',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => 'c5a74962-5d9e-e404-3117-5d1ef3acd358',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary312osAiu6k6MH1A1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'stepNumber' => '3000',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.019000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_step` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_step` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17' LIMIT 1 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `name`='ruik',`headImage`='http://123123',`loginDate`='2018-09-17 11:22:51'  WHERE  `openId` = '15189752925' [ RunTime:0.019000s ]
+[ sql ] [ SQL ] SELECT `headImage` FROM `user` WHERE  `shareOpenId` = '15189752925' ORDER BY id desc LIMIT 4 [ RunTime:0.013000s ]
+---------------------------------------------------------------
+[ 2018-09-17T14:30:16+08:00 ] 0.0.0.0 POST /walk/Home/getBannerList
+[ info ] localhost/walk/Home/getBannerList [运行时间：0.186000s][吞吐率：5.38req/s] [内存消耗：3,652.92kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'getBannerList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '453',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '3d15d268-c7da-ce3c-d146-73d80280a42a',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryUo6xA6oRyQraQTcB',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'stepNumber' => '3000',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->getBannerList[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT `imageUrl` FROM `banner` WHERE  `status` = 0 ORDER BY sort desc [ RunTime:0.008000s ]
+---------------------------------------------------------------
+[ 2018-09-17T14:31:04+08:00 ] 0.0.0.0 POST /walk/Home/getBannerList
+[ info ] localhost/walk/Home/getBannerList [运行时间：0.192000s][吞吐率：5.21req/s] [内存消耗：3,650.32kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'getBannerList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '453',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '4626c454-1d42-14e9-82d0-6c7e83affe80',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryw2jsvRkAbH5Bdu8T',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'stepNumber' => '3000',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->getBannerList[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT `imageUrl` FROM `banner` WHERE  `status` = 0 ORDER BY sort desc LIMIT 1 [ RunTime:0.013000s ]
+---------------------------------------------------------------
+[ 2018-09-17T14:31:22+08:00 ] 0.0.0.0 POST /walk/Home/getBannerList
+[ info ] localhost/walk/Home/getBannerList [运行时间：0.168000s][吞吐率：5.95req/s] [内存消耗：3,653.18kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'getBannerList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '453',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '1c95f28d-9e53-6bfa-b193-8bf7a049ad42',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryr9zKdyrHwjaqu2AB',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'stepNumber' => '3000',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->getBannerList[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT `imageUrl` FROM `banner` WHERE  `status` = 0 ORDER BY sort desc [ RunTime:0.007000s ]
+---------------------------------------------------------------
+[ 2018-09-17T14:32:08+08:00 ] 0.0.0.0 POST /walk/Home/getBannerList
+[ info ] localhost/walk/Home/getBannerList [运行时间：0.258000s][吞吐率：3.88req/s] [内存消耗：3,652.92kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'getBannerList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '453',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => 'd4b6e357-a988-b07d-cbaf-e81cf5664c03',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryZLeFGxvtgy3WT5ia',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'stepNumber' => '3000',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->getBannerList[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.038000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT `imageUrl` FROM `banner` WHERE  `status` = 0 ORDER BY sort desc [ RunTime:0.013000s ]
+---------------------------------------------------------------
+[ 2018-09-17T14:51:55+08:00 ] 0.0.0.0 POST /walk/Home/getGoodList
+[ info ] localhost/walk/Home/getGoodList [运行时间：0.393000s][吞吐率：2.54req/s] [内存消耗：3,792.17kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'getGoodList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '453',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => 'b76aa647-b898-56f2-cf34-45ccee2138e0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary5AIamdWO1NshYti5',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'stepNumber' => '3000',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->getGoodList[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`defaultImage`,`category`,`price`,`exchangeType`,`exchangeCon`,`tag` FROM `product` WHERE  `status` = 0 ORDER BY sort desc LIMIT 0,10 [ RunTime:0.009000s ]
+---------------------------------------------------------------
+[ 2018-09-17T14:52:07+08:00 ] 0.0.0.0 POST /walk/Home/getGoodList
+[ info ] localhost/walk/Home/getGoodList [运行时间：0.424000s][吞吐率：2.36req/s] [内存消耗：3,787.28kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'getGoodList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '453',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '0ab05d29-a80a-f3e4-7630-04de9530736b',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarylwPQcUKW0juzA2t3',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'stepNumber' => '3000',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->getGoodList[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`defaultImage`,`category`,`price`,`exchangeType`,`exchangeCon`,`tag` FROM `product` WHERE  `status` = 0 ORDER BY sort desc LIMIT 0,2 [ RunTime:0.008000s ]
+---------------------------------------------------------------
+[ 2018-09-17T14:52:19+08:00 ] 0.0.0.0 POST /walk/Home/getGoodList
+[ info ] localhost/walk/Home/getGoodList [运行时间：0.415000s][吞吐率：2.41req/s] [内存消耗：3,787.31kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'getGoodList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '545',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '378d0bcb-c1ab-421d-5c04-55f726d45e21',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryxDCK0Rx0Qn8f9cFP',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'stepNumber' => '3000',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->getGoodList[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`defaultImage`,`category`,`price`,`exchangeType`,`exchangeCon`,`tag` FROM `product` WHERE  `status` = 0 ORDER BY sort desc LIMIT 2,2 [ RunTime:0.014000s ]
+---------------------------------------------------------------
+[ 2018-09-17T14:52:28+08:00 ] 0.0.0.0 POST /walk/Home/getGoodList
+[ info ] localhost/walk/Home/getGoodList [运行时间：0.413000s][吞吐率：2.42req/s] [内存消耗：3,787.31kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'getGoodList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '545',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => 'a1c93c9b-62cf-c419-2a65-be150dde412a',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarySUYMfKJ115VvqEyR',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'stepNumber' => '3000',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+  'page' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->getGoodList[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`defaultImage`,`category`,`price`,`exchangeType`,`exchangeCon`,`tag` FROM `product` WHERE  `status` = 0 ORDER BY sort desc LIMIT 4,2 [ RunTime:0.008000s ]
+---------------------------------------------------------------
+[ 2018-09-17T14:52:40+08:00 ] 0.0.0.0 POST /walk/Home/getGoodList
+[ info ] localhost/walk/Home/getGoodList [运行时间：0.401000s][吞吐率：2.49req/s] [内存消耗：3,785.77kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'getGoodList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '545',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => 'f9be0a50-da36-e255-e635-87d5fe666929',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryYqUatJQUeZys3y6c',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'stepNumber' => '3000',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+  'page' => '9',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->getGoodList[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`defaultImage`,`category`,`price`,`exchangeType`,`exchangeCon`,`tag` FROM `product` WHERE  `status` = 0 ORDER BY sort desc LIMIT 18,2 [ RunTime:0.008000s ]
+---------------------------------------------------------------
+[ 2018-09-17T14:54:16+08:00 ] 0.0.0.0 POST /walk/Home/getGoodList
+[ info ] localhost/walk/Home/getGoodList [运行时间：0.179000s][吞吐率：5.59req/s] [内存消耗：3,676.70kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'getGoodList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '545',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '24d368cf-e6da-808f-79ad-cc1ee30c2b0c',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryXeqkh5l9gGbA8hZ6',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'stepNumber' => '3000',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->getGoodList[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`defaultImage`,`category`,`price`,`exchangeType`,`exchangeCon`,`tag` FROM `product` WHERE  `status` = 0 ORDER BY sort desc LIMIT 2,2 [ RunTime:0.008000s ]
+---------------------------------------------------------------
+[ 2018-09-17T14:55:13+08:00 ] 0.0.0.0 POST /walk/Home/getGoodList
+[ info ] localhost/walk/Home/getGoodList [运行时间：0.181000s][吞吐率：5.52req/s] [内存消耗：3,676.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'getGoodList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '545',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => 'd7d11745-e6b8-8ba5-2ab8-8a9e2738f7cc',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryukKjrhev9PuA4BSX',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'stepNumber' => '3000',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->getGoodList[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT `proNo`,`name`,`defaultImage`,`category`,`price`,`exchangeType`,`exchangeCon`,`tag` FROM `product` WHERE  `status` = 0 ORDER BY sort desc LIMIT 2,2 [ RunTime:0.008000s ]
+---------------------------------------------------------------
+[ 2018-09-17T16:01:13+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.450000s][吞吐率：2.22req/s] [内存消耗：3,727.27kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '545',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => 'a542e352-4452-6b7f-80f1-4cb747844893',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryqZ9yuk2ATAKlhiWt',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'stepNumber' => '3000',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.007000s ]
+[ sql ] [ SQL ] INSERT INTO `user` (`openId` , `name` , `headImage` , `createDate` , `loginDate`) VALUES ('15189752925' , 'ruik' , 'http://123123' , '2018-09-17 16:01:12' , '2018-09-17 16:01:12') [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_step_log` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17'  AND `type` = 0 LIMIT 1 [ RunTime:0.008000s ]
+[ sql ] [ SQL ] INSERT INTO `user_step_log` (`openId` , `date` , `step` , `getDate`) VALUES ('15189752925' , '2018-09-17' , '3000' , '2018-09-17 16:01:12') [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT SUM(step) AS tp_sum FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17' LIMIT 1 [ RunTime:0.008000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `stepNumber`='3000'  WHERE  `openid` = '15189752925' [ RunTime:0.010000s ]
+---------------------------------------------------------------
+[ 2018-09-17T16:01:45+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.342000s][吞吐率：2.92req/s] [内存消耗：3,738.84kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '545',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '8dbcb075-1510-8135-6ccc-b610928446fc',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary3xRsEuilSv3tWvuW',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'stepNumber' => '3100',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.008000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `name`='ruik',`headImage`='http://123123',`loginDate`='2018-09-17 16:01:45'  WHERE  `openId` = '15189752925' [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_step_log` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17'  AND `type` = 0 LIMIT 1 [ RunTime:0.009000s ]
+[ sql ] [ SQL ] UPDATE `user_step_log`  SET `step`='3100'  WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17'  AND `type` = 0 [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT SUM(step) AS tp_sum FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17' LIMIT 1 [ RunTime:0.008000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `stepNumber`='3100'  WHERE  `openid` = '15189752925' [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT `headImage` FROM `user` WHERE  `shareOpenId` = '15189752925' ORDER BY id desc LIMIT 4 [ RunTime:0.007000s ]
+---------------------------------------------------------------
+[ 2018-09-17T16:02:17+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.306000s][吞吐率：3.27req/s] [内存消耗：3,731.91kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '545',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '8f6a53fd-3624-548c-b316-2279204c3b02',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryAfHfbjDEQ8rK464w',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'stepNumber' => '3100',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.008000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `name`='ruik',`headImage`='http://123123',`loginDate`='2018-09-17 16:02:17'  WHERE  `openId` = '15189752925' [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_step_log` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17'  AND `type` = 0 LIMIT 1 [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT SUM(step) AS tp_sum FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17' LIMIT 1 [ RunTime:0.008000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `stepNumber`='4100'  WHERE  `openid` = '15189752925' [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT `headImage` FROM `user` WHERE  `shareOpenId` = '15189752925' ORDER BY id desc LIMIT 4 [ RunTime:0.010000s ]
+---------------------------------------------------------------
+[ 2018-09-17T16:31:40+08:00 ] 0.0.0.0 POST /walk/Home/getUserRank
+[ info ] localhost/walk/Home/getUserRank [运行时间：0.507000s][吞吐率：1.97req/s] [内存消耗：3,803.38kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'getUserRank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '545',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => 'a198b0aa-aff3-af93-8cbb-3023caa3d988',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryfCNVaRvldL0t1N5K',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'stepNumber' => '3100',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->getUserRank[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_friend` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT `friendOpenId` FROM `user_friend` WHERE  `openId` = '15189752925' [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.018000s ]
+[ sql ] [ SQL ] SELECT `stepNumber`,`name`,`headImage` FROM `user` WHERE  `openId` IN ('15189752925') ORDER BY stepNumber desc [ RunTime:0.014000s ]
+---------------------------------------------------------------
+[ 2018-09-17T16:39:20+08:00 ] 0.0.0.0 POST /walk/Home/getUserRank
+[ info ] localhost/walk/Home/getUserRank [运行时间：0.206000s][吞吐率：4.85req/s] [内存消耗：3,694.76kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'getUserRank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '545',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '8822f39c-4f87-8075-8079-2362aab3af0e',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryzH9iYLtiER5NjRBH',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'stepNumber' => '3100',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->getUserRank[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_friend` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT `friendOpenId` FROM `user_friend` WHERE  `openId` = '15189752925' [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT `openId`,`stepNumber`,`name`,`headImage` FROM `user` WHERE  `openId` IN ('15189752925') ORDER BY stepNumber desc [ RunTime:0.007000s ]
+---------------------------------------------------------------
+[ 2018-09-17T17:44:57+08:00 ] 0.0.0.0 GET /walk/test
+[ info ] localhost/walk/test [运行时间：0.390000s][吞吐率：2.56req/s] [内存消耗：3,709.56kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '_ga=GA1.1.581352692.1493867060; pgv_pvi=6185861120; AdminUbsNamePanyNo=8c5aad0aaf188bcebd188700f90cfb0b33e594ac; session_id_ip=edb814a4afb723d77be6f83d1ce494e0; ECS[visit_times]=3; bdshare_firstime=1529393285549',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Test->test[ D:\wamp64\www\walk\application\index\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.008000s ]
+---------------------------------------------------------------
+[ 2018-09-17T17:45:18+08:00 ] 0.0.0.0 GET /walk/test
+[ info ] localhost/walk/test [运行时间：1.547000s][吞吐率：0.65req/s] [内存消耗：3,710.62kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '_ga=GA1.1.581352692.1493867060; pgv_pvi=6185861120; AdminUbsNamePanyNo=8c5aad0aaf188bcebd188700f90cfb0b33e594ac; session_id_ip=edb814a4afb723d77be6f83d1ce494e0; ECS[visit_times]=3; bdshare_firstime=1529393285549',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Test->test[ D:\wamp64\www\walk\application\index\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:1.199000s ]
+---------------------------------------------------------------
+[ 2018-09-17T17:55:50+08:00 ] 0.0.0.0 GET /walk/test
+[ info ] localhost/walk/test [运行时间：0.302000s][吞吐率：3.31req/s] [内存消耗：3,832.34kb] [文件加载：50]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '_ga=GA1.1.581352692.1493867060; pgv_pvi=6185861120; AdminUbsNamePanyNo=8c5aad0aaf188bcebd188700f90cfb0b33e594ac; session_id_ip=edb814a4afb723d77be6f83d1ce494e0; ECS[visit_times]=3; bdshare_firstime=1529393285549',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Test->test[ D:\wamp64\www\walk\application\index\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.008000s ]
+[ error ] [1]Class 'app\index\util\ErrorCode' not found[D:\wamp64\www\walk\application\index\util\WXBizDataCrypt.php:49]
+---------------------------------------------------------------
+[ 2018-09-17T17:57:22+08:00 ] 0.0.0.0 GET /walk/test
+[ info ] localhost/walk/test [运行时间：0.189000s][吞吐率：5.29req/s] [内存消耗：3,832.38kb] [文件加载：50]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '_ga=GA1.1.581352692.1493867060; pgv_pvi=6185861120; AdminUbsNamePanyNo=8c5aad0aaf188bcebd188700f90cfb0b33e594ac; session_id_ip=edb814a4afb723d77be6f83d1ce494e0; ECS[visit_times]=3; bdshare_firstime=1529393285549',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Test->test[ D:\wamp64\www\walk\application\index\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.014000s ]
+[ error ] [1]Class 'app\index\util\ErrorCode' not found[D:\wamp64\www\walk\application\index\util\WXBizDataCrypt.php:49]
+---------------------------------------------------------------
+[ 2018-09-17T17:57:44+08:00 ] 0.0.0.0 GET /walk/test
+[ info ] localhost/walk/test [运行时间：0.351000s][吞吐率：2.85req/s] [内存消耗：3,727.62kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '_ga=GA1.1.581352692.1493867060; pgv_pvi=6185861120; AdminUbsNamePanyNo=8c5aad0aaf188bcebd188700f90cfb0b33e594ac; session_id_ip=edb814a4afb723d77be6f83d1ce494e0; ECS[visit_times]=3; bdshare_firstime=1529393285549',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Test->test[ D:\wamp64\www\walk\application\index\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.016000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.012000s ]
+---------------------------------------------------------------
+[ 2018-09-17T18:00:30+08:00 ] 0.0.0.0 GET /walk/test
+[ info ] localhost/walk/test [运行时间：0.361000s][吞吐率：2.77req/s] [内存消耗：3,727.88kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '_ga=GA1.1.581352692.1493867060; pgv_pvi=6185861120; AdminUbsNamePanyNo=8c5aad0aaf188bcebd188700f90cfb0b33e594ac; session_id_ip=edb814a4afb723d77be6f83d1ce494e0; ECS[visit_times]=3; bdshare_firstime=1529393285549',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Test->test[ D:\wamp64\www\walk\application\index\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.013000s ]
+---------------------------------------------------------------
+[ 2018-09-17T18:00:43+08:00 ] 0.0.0.0 GET /walk/test
+[ info ] localhost/walk/test [运行时间：0.351000s][吞吐率：2.85req/s] [内存消耗：3,727.62kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '_ga=GA1.1.581352692.1493867060; pgv_pvi=6185861120; AdminUbsNamePanyNo=8c5aad0aaf188bcebd188700f90cfb0b33e594ac; session_id_ip=edb814a4afb723d77be6f83d1ce494e0; ECS[visit_times]=3; bdshare_firstime=1529393285549',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Test->test[ D:\wamp64\www\walk\application\index\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.009000s ]
+---------------------------------------------------------------
+[ 2018-09-17T18:08:41+08:00 ] 0.0.0.0 GET /walk/test
+[ info ] localhost/walk/test [运行时间：0.355000s][吞吐率：2.82req/s] [内存消耗：3,727.35kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '_ga=GA1.1.581352692.1493867060; pgv_pvi=6185861120; AdminUbsNamePanyNo=8c5aad0aaf188bcebd188700f90cfb0b33e594ac; session_id_ip=edb814a4afb723d77be6f83d1ce494e0; ECS[visit_times]=3; bdshare_firstime=1529393285549',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Test->test[ D:\wamp64\www\walk\application\index\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.012000s ]
+---------------------------------------------------------------
+[ 2018-09-17T18:10:37+08:00 ] 0.0.0.0 GET /walk/test
+[ info ] localhost/walk/test [运行时间：0.345000s][吞吐率：2.90req/s] [内存消耗：3,728.95kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '_ga=GA1.1.581352692.1493867060; pgv_pvi=6185861120; AdminUbsNamePanyNo=8c5aad0aaf188bcebd188700f90cfb0b33e594ac; session_id_ip=edb814a4afb723d77be6f83d1ce494e0; ECS[visit_times]=3; bdshare_firstime=1529393285549',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Test->test[ D:\wamp64\www\walk\application\index\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.007000s ]
+---------------------------------------------------------------
+[ 2018-09-17T18:11:56+08:00 ] 0.0.0.0 GET /walk/test
+[ info ] localhost/walk/test [运行时间：0.346000s][吞吐率：2.89req/s] [内存消耗：3,728.66kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '_ga=GA1.1.581352692.1493867060; pgv_pvi=6185861120; AdminUbsNamePanyNo=8c5aad0aaf188bcebd188700f90cfb0b33e594ac; session_id_ip=edb814a4afb723d77be6f83d1ce494e0; ECS[visit_times]=3; bdshare_firstime=1529393285549',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Test->test[ D:\wamp64\www\walk\application\index\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.009000s ]
+---------------------------------------------------------------
+[ 2018-09-17T18:12:17+08:00 ] 0.0.0.0 GET /walk/test
+[ info ] localhost/walk/test [运行时间：0.347000s][吞吐率：2.88req/s] [内存消耗：3,728.70kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '_ga=GA1.1.581352692.1493867060; pgv_pvi=6185861120; AdminUbsNamePanyNo=8c5aad0aaf188bcebd188700f90cfb0b33e594ac; session_id_ip=edb814a4afb723d77be6f83d1ce494e0; ECS[visit_times]=3; bdshare_firstime=1529393285549',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Test->test[ D:\wamp64\www\walk\application\index\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.008000s ]
+---------------------------------------------------------------
+[ 2018-09-17T18:13:47+08:00 ] 0.0.0.0 GET /walk/test
+[ info ] localhost/walk/test [运行时间：0.337000s][吞吐率：2.97req/s] [内存消耗：3,728.71kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '_ga=GA1.1.581352692.1493867060; pgv_pvi=6185861120; AdminUbsNamePanyNo=8c5aad0aaf188bcebd188700f90cfb0b33e594ac; session_id_ip=edb814a4afb723d77be6f83d1ce494e0; ECS[visit_times]=3; bdshare_firstime=1529393285549',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Test->test[ D:\wamp64\www\walk\application\index\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.008000s ]
+---------------------------------------------------------------
+[ 2018-09-17T18:18:57+08:00 ] 0.0.0.0 GET /walk/test
+[ info ] localhost/walk/test [运行时间：0.345000s][吞吐率：2.90req/s] [内存消耗：3,727.63kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'postman-token' => '579ee268-6d48-b03e-ab59-a745916c4292',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Test->test[ D:\wamp64\www\walk\application\index\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.008000s ]
+---------------------------------------------------------------
+[ 2018-09-17T18:21:28+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.379000s][吞吐率：2.64req/s] [内存消耗：3,758.59kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '2518',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '7747e1b6-d81b-dfcb-92d7-dbeb3247b5fd',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryiNiHdEXYale9pARa',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'stepNumber' => '3100',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+  'page' => '1',
+  'wxData' => 'lNQrBbq2usl16jkkWnfaRTtQGIKNvNNGY4jjTMRiyZ2fiIBlrAVwwLMntJ3siaJ07K3fkrxa1fZJxc+bX8pG3VZMaTfzHI5JE6rExk3Toxd/3rDkYkAQP6n4JyVeWuLF7y2oREdxYOB+CZnJbc37yhE0Zt59eUkJ8MT82JBAYFf63b/Xz8vuMTBoHODj2iWDbDEbhCDC8ClDszChTjEdC1RF+zrrQCXj4WUpDJJq66YhmBwg/8Br6YPDUSCH5f/bT3ygTMtb0CDh4JrXwB1gJdZRnrMLO27Zrp/21oZiOENGWjz5POr9BocNFlQ8G2oU7HRomsL0XSIGW3u8bcRSFkYO1DwGsDUzWmHa9MZvFypTv66EL5qnNOG2EKZyG+Qt0sTnmi5kiOMmJLqdxI0CLcIczyZM/cbMujd9jOiY1Kd7uMIyQAigxEDosqpaQ94eDkPpIlQ4dNBzPSOIJXUShgEFCvofT+zLC5/1lspew0n8apBtnXZSHSaVo1CMJT9quYngMr7xZArHJW70l+dnA0pCuzOkVNQZGW8J88dVTs2hAiDiPkXMsu5J0tZG3BwJYbS3L4Rbaowc9+ua9zP0jJ11ghtD1iqvjNlWy685axcFflmP28RGy9vjsbLgZ1wzGRTUni9kDfzVE0XrA65ItgJ5pqBlksCdbYsR2S/r3NLuB9IuBhmUX5k5ZuWZ+G9V3dMtf0D8T9yNtLsNb5PeUWVygylMdPVJsfWQ0sSr8UfXyuUqEWtNYEzE0Csy9OuqHOZXdYwAkmb/mr3rybzhQLqCR67c3IaTria40rhenziwPZ9xZXlvVJBVY9NsXj/tb5jvvx5PxywxaFJFFn+hcsfXokyw9i64iNDJShraxU9mSr5REB09+Ur+K63ugplv+5CCRIPDC43yaWkBOxc9cCy9gvRx6Pfvy9Nk8wA93/llx5vNl/+cl2kxRpq9ueB5Nx16GWSpFWwWL36BBmZtEJjKclD3j7OeRjGjomnsplHbUEBhpmmZ+toaVdrj0xf/IbfHyTjA/Q5pfe0knUURSVECUqmq1wEgRPPRORCredcoHzVVVzm2k6VGFVuH1OzK6edBmMCrIUA+ZN+ql+lMfa2Te0Kgi3h4IEP9IXHFB8R07a+JObfvOGjUrYEZ4DcaTA4AO//jIVv7vaDosGgFPnjX2vJN7XDrseibaH9S54C63FAZHnIgLBdw2jfxtaHL8SMIIyLmLvkKDnvxwkh6e2yTFQXPzebPMQy+khXkk6gfzu1vVLLfhTOiJ5Z3vE85bpCotykatBGGnvJzQKFvVZQf2Lt3QXpuMzkUso2WkxNreQDJ5J4OhMk+wz4GUu3OcxHvKiBSwgRN/aNSabeKwLGZdWnd5WqFgbYntknaCbV/Qxl4zSwU79R8hC2ZfAlg8jT73kift7PmiW3sjB5K4+9tKVOhn4gqX0f9qyTxQNkTmGOpDe5Mr2uaoOJT5gztqlIPC/qZ+m4Il83oyrtwl0vkcchsxWNno7FMv95zRItlE2wHa0rHK4QobiY6FhV9FqRBDB68u9J3z0U6Qm/862c+aFyWTvzNKxyUyWe7bYuhboJncyjCSHlWrkHRS2L4C7JfapoYGGDJP4oIC+mF49RqDRNTOGLUFp2f3QpQM8s=',
+  'wxIv' => '753xjVcA2Bz9B7dQqlyGkQ==',
+  'sessionKey' => '7b1dnMRzgnGj0zuPR4Tmkw==',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `name`='ruik',`headImage`='http://123123',`loginDate`='2018-09-17 18:21:28'  WHERE  `openId` = '15189752925' [ RunTime:0.019000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_step_log` [ RunTime:0.016000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17'  AND `type` = 0 LIMIT 1 [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT SUM(step) AS tp_sum FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17' LIMIT 1 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `stepNumber`='4100'  WHERE  `openid` = '15189752925' [ RunTime:0.018000s ]
+---------------------------------------------------------------
+[ 2018-09-17T18:23:24+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.217000s][吞吐率：4.61req/s] [内存消耗：3,818.52kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '2518',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => 'a255416e-5ec7-a850-4bdb-322329127135',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryL7X5l53TLZlPBTfC',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'stepNumber' => '3100',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+  'page' => '1',
+  'wxData' => 'lNQrBbq2usl16jkkWnfaRTtQGIKNvNNGY4jjTMRiyZ2fiIBlrAVwwLMntJ3siaJ07K3fkrxa1fZJxc+bX8pG3VZMaTfzHI5JE6rExk3Toxd/3rDkYkAQP6n4JyVeWuLF7y2oREdxYOB+CZnJbc37yhE0Zt59eUkJ8MT82JBAYFf63b/Xz8vuMTBoHODj2iWDbDEbhCDC8ClDszChTjEdC1RF+zrrQCXj4WUpDJJq66YhmBwg/8Br6YPDUSCH5f/bT3ygTMtb0CDh4JrXwB1gJdZRnrMLO27Zrp/21oZiOENGWjz5POr9BocNFlQ8G2oU7HRomsL0XSIGW3u8bcRSFkYO1DwGsDUzWmHa9MZvFypTv66EL5qnNOG2EKZyG+Qt0sTnmi5kiOMmJLqdxI0CLcIczyZM/cbMujd9jOiY1Kd7uMIyQAigxEDosqpaQ94eDkPpIlQ4dNBzPSOIJXUShgEFCvofT+zLC5/1lspew0n8apBtnXZSHSaVo1CMJT9quYngMr7xZArHJW70l+dnA0pCuzOkVNQZGW8J88dVTs2hAiDiPkXMsu5J0tZG3BwJYbS3L4Rbaowc9+ua9zP0jJ11ghtD1iqvjNlWy685axcFflmP28RGy9vjsbLgZ1wzGRTUni9kDfzVE0XrA65ItgJ5pqBlksCdbYsR2S/r3NLuB9IuBhmUX5k5ZuWZ+G9V3dMtf0D8T9yNtLsNb5PeUWVygylMdPVJsfWQ0sSr8UfXyuUqEWtNYEzE0Csy9OuqHOZXdYwAkmb/mr3rybzhQLqCR67c3IaTria40rhenziwPZ9xZXlvVJBVY9NsXj/tb5jvvx5PxywxaFJFFn+hcsfXokyw9i64iNDJShraxU9mSr5REB09+Ur+K63ugplv+5CCRIPDC43yaWkBOxc9cCy9gvRx6Pfvy9Nk8wA93/llx5vNl/+cl2kxRpq9ueB5Nx16GWSpFWwWL36BBmZtEJjKclD3j7OeRjGjomnsplHbUEBhpmmZ+toaVdrj0xf/IbfHyTjA/Q5pfe0knUURSVECUqmq1wEgRPPRORCredcoHzVVVzm2k6VGFVuH1OzK6edBmMCrIUA+ZN+ql+lMfa2Te0Kgi3h4IEP9IXHFB8R07a+JObfvOGjUrYEZ4DcaTA4AO//jIVv7vaDosGgFPnjX2vJN7XDrseibaH9S54C63FAZHnIgLBdw2jfxtaHL8SMIIyLmLvkKDnvxwkh6e2yTFQXPzebPMQy+khXkk6gfzu1vVLLfhTOiJ5Z3vE85bpCotykatBGGnvJzQKFvVZQf2Lt3QXpuMzkUso2WkxNreQDJ5J4OhMk+wz4GUu3OcxHvKiBSwgRN/aNSabeKwLGZdWnd5WqFgbYntknaCbV/Qxl4zSwU79R8hC2ZfAlg8jT73kift7PmiW3sjB5K4+9tKVOhn4gqX0f9qyTxQNkTmGOpDe5Mr2uaoOJT5gztqlIPC/qZ+m4Il83oyrtwl0vkcchsxWNno7FMv95zRItlE2wHa0rHK4QobiY6FhV9FqRBDB68u9J3z0U6Qm/862c+aFyWTvzNKxyUyWe7bYuhboJncyjCSHlWrkHRS2L4C7JfapoYGGDJP4oIC+mF49RqDRNTOGLUFp2f3QpQM8s=',
+  'wxIv' => '753xjVcA2Bz9B7dQqlyGkQ==',
+  'sessionKey' => '7b1dnMRzgnGj0zuPR4Tmkw==',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.008000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `name`='ruik',`headImage`='http://123123',`loginDate`='2018-09-17 18:23:24'  WHERE  `openId` = '15189752925' [ RunTime:0.014000s ]
+---------------------------------------------------------------
+[ 2018-09-17T18:23:43+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.209000s][吞吐率：4.78req/s] [内存消耗：3,721.83kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '2518',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '7ff02b91-631f-6456-c972-5ef255a32c7d',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarylXRPfeQaxSddaUAc',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'stepNumber' => '3100',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+  'page' => '1',
+  'wxData' => 'lNQrBbq2usl16jkkWnfaRTtQGIKNvNNGY4jjTMRiyZ2fiIBlrAVwwLMntJ3siaJ07K3fkrxa1fZJxc+bX8pG3VZMaTfzHI5JE6rExk3Toxd/3rDkYkAQP6n4JyVeWuLF7y2oREdxYOB+CZnJbc37yhE0Zt59eUkJ8MT82JBAYFf63b/Xz8vuMTBoHODj2iWDbDEbhCDC8ClDszChTjEdC1RF+zrrQCXj4WUpDJJq66YhmBwg/8Br6YPDUSCH5f/bT3ygTMtb0CDh4JrXwB1gJdZRnrMLO27Zrp/21oZiOENGWjz5POr9BocNFlQ8G2oU7HRomsL0XSIGW3u8bcRSFkYO1DwGsDUzWmHa9MZvFypTv66EL5qnNOG2EKZyG+Qt0sTnmi5kiOMmJLqdxI0CLcIczyZM/cbMujd9jOiY1Kd7uMIyQAigxEDosqpaQ94eDkPpIlQ4dNBzPSOIJXUShgEFCvofT+zLC5/1lspew0n8apBtnXZSHSaVo1CMJT9quYngMr7xZArHJW70l+dnA0pCuzOkVNQZGW8J88dVTs2hAiDiPkXMsu5J0tZG3BwJYbS3L4Rbaowc9+ua9zP0jJ11ghtD1iqvjNlWy685axcFflmP28RGy9vjsbLgZ1wzGRTUni9kDfzVE0XrA65ItgJ5pqBlksCdbYsR2S/r3NLuB9IuBhmUX5k5ZuWZ+G9V3dMtf0D8T9yNtLsNb5PeUWVygylMdPVJsfWQ0sSr8UfXyuUqEWtNYEzE0Csy9OuqHOZXdYwAkmb/mr3rybzhQLqCR67c3IaTria40rhenziwPZ9xZXlvVJBVY9NsXj/tb5jvvx5PxywxaFJFFn+hcsfXokyw9i64iNDJShraxU9mSr5REB09+Ur+K63ugplv+5CCRIPDC43yaWkBOxc9cCy9gvRx6Pfvy9Nk8wA93/llx5vNl/+cl2kxRpq9ueB5Nx16GWSpFWwWL36BBmZtEJjKclD3j7OeRjGjomnsplHbUEBhpmmZ+toaVdrj0xf/IbfHyTjA/Q5pfe0knUURSVECUqmq1wEgRPPRORCredcoHzVVVzm2k6VGFVuH1OzK6edBmMCrIUA+ZN+ql+lMfa2Te0Kgi3h4IEP9IXHFB8R07a+JObfvOGjUrYEZ4DcaTA4AO//jIVv7vaDosGgFPnjX2vJN7XDrseibaH9S54C63FAZHnIgLBdw2jfxtaHL8SMIIyLmLvkKDnvxwkh6e2yTFQXPzebPMQy+khXkk6gfzu1vVLLfhTOiJ5Z3vE85bpCotykatBGGnvJzQKFvVZQf2Lt3QXpuMzkUso2WkxNreQDJ5J4OhMk+wz4GUu3OcxHvKiBSwgRN/aNSabeKwLGZdWnd5WqFgbYntknaCbV/Qxl4zSwU79R8hC2ZfAlg8jT73kift7PmiW3sjB5K4+9tKVOhn4gqX0f9qyTxQNkTmGOpDe5Mr2uaoOJT5gztqlIPC/qZ+m4Il83oyrtwl0vkcchsxWNno7FMv95zRItlE2wHa0rHK4QobiY6FhV9FqRBDB68u9J3z0U6Qm/862c+aFyWTvzNKxyUyWe7bYuhboJncyjCSHlWrkHRS2L4C7JfapoYGGDJP4oIC+mF49RqDRNTOGLUFp2f3QpQM8s=',
+  'wxIv' => '753xjVcA2Bz9B7dQqlyGkQ==',
+  'sessionKey' => '7b1dnMRzgnGj0zuPR4Tmkw==',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.008000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `name`='ruik',`headImage`='http://123123',`loginDate`='2018-09-17 18:23:43'  WHERE  `openId` = '15189752925' [ RunTime:0.014000s ]
+---------------------------------------------------------------
+[ 2018-09-17T18:23:54+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.265000s][吞吐率：3.77req/s] [内存消耗：3,721.96kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '2518',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '57d95b7d-56bd-b357-c0f0-5af2be446d00',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryBEdOAWHKV50Sp9Of',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'stepNumber' => '3100',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+  'page' => '1',
+  'wxData' => 'lNQrBbq2usl16jkkWnfaRTtQGIKNvNNGY4jjTMRiyZ2fiIBlrAVwwLMntJ3siaJ07K3fkrxa1fZJxc+bX8pG3VZMaTfzHI5JE6rExk3Toxd/3rDkYkAQP6n4JyVeWuLF7y2oREdxYOB+CZnJbc37yhE0Zt59eUkJ8MT82JBAYFf63b/Xz8vuMTBoHODj2iWDbDEbhCDC8ClDszChTjEdC1RF+zrrQCXj4WUpDJJq66YhmBwg/8Br6YPDUSCH5f/bT3ygTMtb0CDh4JrXwB1gJdZRnrMLO27Zrp/21oZiOENGWjz5POr9BocNFlQ8G2oU7HRomsL0XSIGW3u8bcRSFkYO1DwGsDUzWmHa9MZvFypTv66EL5qnNOG2EKZyG+Qt0sTnmi5kiOMmJLqdxI0CLcIczyZM/cbMujd9jOiY1Kd7uMIyQAigxEDosqpaQ94eDkPpIlQ4dNBzPSOIJXUShgEFCvofT+zLC5/1lspew0n8apBtnXZSHSaVo1CMJT9quYngMr7xZArHJW70l+dnA0pCuzOkVNQZGW8J88dVTs2hAiDiPkXMsu5J0tZG3BwJYbS3L4Rbaowc9+ua9zP0jJ11ghtD1iqvjNlWy685axcFflmP28RGy9vjsbLgZ1wzGRTUni9kDfzVE0XrA65ItgJ5pqBlksCdbYsR2S/r3NLuB9IuBhmUX5k5ZuWZ+G9V3dMtf0D8T9yNtLsNb5PeUWVygylMdPVJsfWQ0sSr8UfXyuUqEWtNYEzE0Csy9OuqHOZXdYwAkmb/mr3rybzhQLqCR67c3IaTria40rhenziwPZ9xZXlvVJBVY9NsXj/tb5jvvx5PxywxaFJFFn+hcsfXokyw9i64iNDJShraxU9mSr5REB09+Ur+K63ugplv+5CCRIPDC43yaWkBOxc9cCy9gvRx6Pfvy9Nk8wA93/llx5vNl/+cl2kxRpq9ueB5Nx16GWSpFWwWL36BBmZtEJjKclD3j7OeRjGjomnsplHbUEBhpmmZ+toaVdrj0xf/IbfHyTjA/Q5pfe0knUURSVECUqmq1wEgRPPRORCredcoHzVVVzm2k6VGFVuH1OzK6edBmMCrIUA+ZN+ql+lMfa2Te0Kgi3h4IEP9IXHFB8R07a+JObfvOGjUrYEZ4DcaTA4AO//jIVv7vaDosGgFPnjX2vJN7XDrseibaH9S54C63FAZHnIgLBdw2jfxtaHL8SMIIyLmLvkKDnvxwkh6e2yTFQXPzebPMQy+khXkk6gfzu1vVLLfhTOiJ5Z3vE85bpCotykatBGGnvJzQKFvVZQf2Lt3QXpuMzkUso2WkxNreQDJ5J4OhMk+wz4GUu3OcxHvKiBSwgRN/aNSabeKwLGZdWnd5WqFgbYntknaCbV/Qxl4zSwU79R8hC2ZfAlg8jT73kift7PmiW3sjB5K4+9tKVOhn4gqX0f9qyTxQNkTmGOpDe5Mr2uaoOJT5gztqlIPC/qZ+m4Il83oyrtwl0vkcchsxWNno7FMv95zRItlE2wHa0rHK4QobiY6FhV9FqRBDB68u9J3z0U6Qm/862c+aFyWTvzNKxyUyWe7bYuhboJncyjCSHlWrkHRS2L4C7JfapoYGGDJP4oIC+mF49RqDRNTOGLUFp2f3QpQM8s=',
+  'wxIv' => '753xjVcA2Bz9B7dQqlyGkQ==',
+  'sessionKey' => '7b1dnMRzgnGj0zuPR4Tmkw==',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.014000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `name`='ruik',`headImage`='http://123123',`loginDate`='2018-09-17 18:23:54'  WHERE  `openId` = '15189752925' [ RunTime:0.043000s ]
+---------------------------------------------------------------
+[ 2018-09-17T18:24:10+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.364000s][吞吐率：2.75req/s] [内存消耗：3,759.02kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '2518',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => 'f580a12e-8a32-06a4-ea91-aac58ed7432b',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryKPwalANv6M9NgeQk',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'stepNumber' => '3100',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+  'page' => '1',
+  'wxData' => 'lNQrBbq2usl16jkkWnfaRTtQGIKNvNNGY4jjTMRiyZ2fiIBlrAVwwLMntJ3siaJ07K3fkrxa1fZJxc+bX8pG3VZMaTfzHI5JE6rExk3Toxd/3rDkYkAQP6n4JyVeWuLF7y2oREdxYOB+CZnJbc37yhE0Zt59eUkJ8MT82JBAYFf63b/Xz8vuMTBoHODj2iWDbDEbhCDC8ClDszChTjEdC1RF+zrrQCXj4WUpDJJq66YhmBwg/8Br6YPDUSCH5f/bT3ygTMtb0CDh4JrXwB1gJdZRnrMLO27Zrp/21oZiOENGWjz5POr9BocNFlQ8G2oU7HRomsL0XSIGW3u8bcRSFkYO1DwGsDUzWmHa9MZvFypTv66EL5qnNOG2EKZyG+Qt0sTnmi5kiOMmJLqdxI0CLcIczyZM/cbMujd9jOiY1Kd7uMIyQAigxEDosqpaQ94eDkPpIlQ4dNBzPSOIJXUShgEFCvofT+zLC5/1lspew0n8apBtnXZSHSaVo1CMJT9quYngMr7xZArHJW70l+dnA0pCuzOkVNQZGW8J88dVTs2hAiDiPkXMsu5J0tZG3BwJYbS3L4Rbaowc9+ua9zP0jJ11ghtD1iqvjNlWy685axcFflmP28RGy9vjsbLgZ1wzGRTUni9kDfzVE0XrA65ItgJ5pqBlksCdbYsR2S/r3NLuB9IuBhmUX5k5ZuWZ+G9V3dMtf0D8T9yNtLsNb5PeUWVygylMdPVJsfWQ0sSr8UfXyuUqEWtNYEzE0Csy9OuqHOZXdYwAkmb/mr3rybzhQLqCR67c3IaTria40rhenziwPZ9xZXlvVJBVY9NsXj/tb5jvvx5PxywxaFJFFn+hcsfXokyw9i64iNDJShraxU9mSr5REB09+Ur+K63ugplv+5CCRIPDC43yaWkBOxc9cCy9gvRx6Pfvy9Nk8wA93/llx5vNl/+cl2kxRpq9ueB5Nx16GWSpFWwWL36BBmZtEJjKclD3j7OeRjGjomnsplHbUEBhpmmZ+toaVdrj0xf/IbfHyTjA/Q5pfe0knUURSVECUqmq1wEgRPPRORCredcoHzVVVzm2k6VGFVuH1OzK6edBmMCrIUA+ZN+ql+lMfa2Te0Kgi3h4IEP9IXHFB8R07a+JObfvOGjUrYEZ4DcaTA4AO//jIVv7vaDosGgFPnjX2vJN7XDrseibaH9S54C63FAZHnIgLBdw2jfxtaHL8SMIIyLmLvkKDnvxwkh6e2yTFQXPzebPMQy+khXkk6gfzu1vVLLfhTOiJ5Z3vE85bpCotykatBGGnvJzQKFvVZQf2Lt3QXpuMzkUso2WkxNreQDJ5J4OhMk+wz4GUu3OcxHvKiBSwgRN/aNSabeKwLGZdWnd5WqFgbYntknaCbV/Qxl4zSwU79R8hC2ZfAlg8jT73kift7PmiW3sjB5K4+9tKVOhn4gqX0f9qyTxQNkTmGOpDe5Mr2uaoOJT5gztqlIPC/qZ+m4Il83oyrtwl0vkcchsxWNno7FMv95zRItlE2wHa0rHK4QobiY6FhV9FqRBDB68u9J3z0U6Qm/862c+aFyWTvzNKxyUyWe7bYuhboJncyjCSHlWrkHRS2L4C7JfapoYGGDJP4oIC+mF49RqDRNTOGLUFp2f3QpQM8s=',
+  'wxIv' => '753xjVcA2Bz9B7dQqlyGkQ==',
+  'sessionKey' => '7b1dnMRzgnGj0zuPR4Tmkw==',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.016000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `name`='ruik',`headImage`='http://123123',`loginDate`='2018-09-17 18:24:10'  WHERE  `openId` = '15189752925' [ RunTime:0.034000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_step_log` [ RunTime:0.016000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17'  AND `type` = 0 LIMIT 1 [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT SUM(step) AS tp_sum FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17' LIMIT 1 [ RunTime:0.014000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `stepNumber`='4100'  WHERE  `openid` = '15189752925' [ RunTime:0.020000s ]
+---------------------------------------------------------------
+[ 2018-09-17T18:26:03+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.600000s][吞吐率：1.67req/s] [内存消耗：3,777.55kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '2518',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '66619ecf-5458-a609-5216-d4b345f6ab46',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryC4lVq6Hd7GICS5dm',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'stepNumber' => '3100',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+  'page' => '1',
+  'wxData' => 'lNQrBbq2usl16jkkWnfaRTtQGIKNvNNGY4jjTMRiyZ2fiIBlrAVwwLMntJ3siaJ07K3fkrxa1fZJxc+bX8pG3VZMaTfzHI5JE6rExk3Toxd/3rDkYkAQP6n4JyVeWuLF7y2oREdxYOB+CZnJbc37yhE0Zt59eUkJ8MT82JBAYFf63b/Xz8vuMTBoHODj2iWDbDEbhCDC8ClDszChTjEdC1RF+zrrQCXj4WUpDJJq66YhmBwg/8Br6YPDUSCH5f/bT3ygTMtb0CDh4JrXwB1gJdZRnrMLO27Zrp/21oZiOENGWjz5POr9BocNFlQ8G2oU7HRomsL0XSIGW3u8bcRSFkYO1DwGsDUzWmHa9MZvFypTv66EL5qnNOG2EKZyG+Qt0sTnmi5kiOMmJLqdxI0CLcIczyZM/cbMujd9jOiY1Kd7uMIyQAigxEDosqpaQ94eDkPpIlQ4dNBzPSOIJXUShgEFCvofT+zLC5/1lspew0n8apBtnXZSHSaVo1CMJT9quYngMr7xZArHJW70l+dnA0pCuzOkVNQZGW8J88dVTs2hAiDiPkXMsu5J0tZG3BwJYbS3L4Rbaowc9+ua9zP0jJ11ghtD1iqvjNlWy685axcFflmP28RGy9vjsbLgZ1wzGRTUni9kDfzVE0XrA65ItgJ5pqBlksCdbYsR2S/r3NLuB9IuBhmUX5k5ZuWZ+G9V3dMtf0D8T9yNtLsNb5PeUWVygylMdPVJsfWQ0sSr8UfXyuUqEWtNYEzE0Csy9OuqHOZXdYwAkmb/mr3rybzhQLqCR67c3IaTria40rhenziwPZ9xZXlvVJBVY9NsXj/tb5jvvx5PxywxaFJFFn+hcsfXokyw9i64iNDJShraxU9mSr5REB09+Ur+K63ugplv+5CCRIPDC43yaWkBOxc9cCy9gvRx6Pfvy9Nk8wA93/llx5vNl/+cl2kxRpq9ueB5Nx16GWSpFWwWL36BBmZtEJjKclD3j7OeRjGjomnsplHbUEBhpmmZ+toaVdrj0xf/IbfHyTjA/Q5pfe0knUURSVECUqmq1wEgRPPRORCredcoHzVVVzm2k6VGFVuH1OzK6edBmMCrIUA+ZN+ql+lMfa2Te0Kgi3h4IEP9IXHFB8R07a+JObfvOGjUrYEZ4DcaTA4AO//jIVv7vaDosGgFPnjX2vJN7XDrseibaH9S54C63FAZHnIgLBdw2jfxtaHL8SMIIyLmLvkKDnvxwkh6e2yTFQXPzebPMQy+khXkk6gfzu1vVLLfhTOiJ5Z3vE85bpCotykatBGGnvJzQKFvVZQf2Lt3QXpuMzkUso2WkxNreQDJ5J4OhMk+wz4GUu3OcxHvKiBSwgRN/aNSabeKwLGZdWnd5WqFgbYntknaCbV/Qxl4zSwU79R8hC2ZfAlg8jT73kift7PmiW3sjB5K4+9tKVOhn4gqX0f9qyTxQNkTmGOpDe5Mr2uaoOJT5gztqlIPC/qZ+m4Il83oyrtwl0vkcchsxWNno7FMv95zRItlE2wHa0rHK4QobiY6FhV9FqRBDB68u9J3z0U6Qm/862c+aFyWTvzNKxyUyWe7bYuhboJncyjCSHlWrkHRS2L4C7JfapoYGGDJP4oIC+mF49RqDRNTOGLUFp2f3QpQM8s=',
+  'wxIv' => '753xjVcA2Bz9B7dQqlyGkQ==',
+  'sessionKey' => '7b1dnMRzgnGj0zuPR4Tmkw==',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.148000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.008000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `name`='ruik',`headImage`='http://123123',`loginDate`='2018-09-17 18:26:02'  WHERE  `openId` = '15189752925' [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_step_log` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17'  AND `type` = 0 LIMIT 1 [ RunTime:0.035000s ]
+[ sql ] [ SQL ] UPDATE `user_step_log`  SET `step`='1900'  WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17'  AND `type` = 0 [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT SUM(step) AS tp_sum FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17' LIMIT 1 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `stepNumber`='3800'  WHERE  `openid` = '15189752925' [ RunTime:0.033000s ]
+[ sql ] [ SQL ] SELECT `headImage` FROM `user` WHERE  `shareOpenId` = '15189752925' ORDER BY id desc LIMIT 4 [ RunTime:0.008000s ]
+---------------------------------------------------------------
+[ 2018-09-17T18:26:23+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.262000s][吞吐率：3.82req/s] [内存消耗：3,759.39kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '2417',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '0e482d0b-2c92-01ff-7057-78177e918981',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryEdcdADSONkjGG6E9',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+  'page' => '1',
+  'wxData' => 'lNQrBbq2usl16jkkWnfaRTtQGIKNvNNGY4jjTMRiyZ2fiIBlrAVwwLMntJ3siaJ07K3fkrxa1fZJxc+bX8pG3VZMaTfzHI5JE6rExk3Toxd/3rDkYkAQP6n4JyVeWuLF7y2oREdxYOB+CZnJbc37yhE0Zt59eUkJ8MT82JBAYFf63b/Xz8vuMTBoHODj2iWDbDEbhCDC8ClDszChTjEdC1RF+zrrQCXj4WUpDJJq66YhmBwg/8Br6YPDUSCH5f/bT3ygTMtb0CDh4JrXwB1gJdZRnrMLO27Zrp/21oZiOENGWjz5POr9BocNFlQ8G2oU7HRomsL0XSIGW3u8bcRSFkYO1DwGsDUzWmHa9MZvFypTv66EL5qnNOG2EKZyG+Qt0sTnmi5kiOMmJLqdxI0CLcIczyZM/cbMujd9jOiY1Kd7uMIyQAigxEDosqpaQ94eDkPpIlQ4dNBzPSOIJXUShgEFCvofT+zLC5/1lspew0n8apBtnXZSHSaVo1CMJT9quYngMr7xZArHJW70l+dnA0pCuzOkVNQZGW8J88dVTs2hAiDiPkXMsu5J0tZG3BwJYbS3L4Rbaowc9+ua9zP0jJ11ghtD1iqvjNlWy685axcFflmP28RGy9vjsbLgZ1wzGRTUni9kDfzVE0XrA65ItgJ5pqBlksCdbYsR2S/r3NLuB9IuBhmUX5k5ZuWZ+G9V3dMtf0D8T9yNtLsNb5PeUWVygylMdPVJsfWQ0sSr8UfXyuUqEWtNYEzE0Csy9OuqHOZXdYwAkmb/mr3rybzhQLqCR67c3IaTria40rhenziwPZ9xZXlvVJBVY9NsXj/tb5jvvx5PxywxaFJFFn+hcsfXokyw9i64iNDJShraxU9mSr5REB09+Ur+K63ugplv+5CCRIPDC43yaWkBOxc9cCy9gvRx6Pfvy9Nk8wA93/llx5vNl/+cl2kxRpq9ueB5Nx16GWSpFWwWL36BBmZtEJjKclD3j7OeRjGjomnsplHbUEBhpmmZ+toaVdrj0xf/IbfHyTjA/Q5pfe0knUURSVECUqmq1wEgRPPRORCredcoHzVVVzm2k6VGFVuH1OzK6edBmMCrIUA+ZN+ql+lMfa2Te0Kgi3h4IEP9IXHFB8R07a+JObfvOGjUrYEZ4DcaTA4AO//jIVv7vaDosGgFPnjX2vJN7XDrseibaH9S54C63FAZHnIgLBdw2jfxtaHL8SMIIyLmLvkKDnvxwkh6e2yTFQXPzebPMQy+khXkk6gfzu1vVLLfhTOiJ5Z3vE85bpCotykatBGGnvJzQKFvVZQf2Lt3QXpuMzkUso2WkxNreQDJ5J4OhMk+wz4GUu3OcxHvKiBSwgRN/aNSabeKwLGZdWnd5WqFgbYntknaCbV/Qxl4zSwU79R8hC2ZfAlg8jT73kift7PmiW3sjB5K4+9tKVOhn4gqX0f9qyTxQNkTmGOpDe5Mr2uaoOJT5gztqlIPC/qZ+m4Il83oyrtwl0vkcchsxWNno7FMv95zRItlE2wHa0rHK4QobiY6FhV9FqRBDB68u9J3z0U6Qm/862c+aFyWTvzNKxyUyWe7bYuhboJncyjCSHlWrkHRS2L4C7JfapoYGGDJP4oIC+mF49RqDRNTOGLUFp2f3QpQM8s=',
+  'wxIv' => '753xjVcA2Bz9B7dQqlyGkQ==',
+  'sessionKey' => '7b1dnMRzgnGj0zuPR4Tmkw==',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.006000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `name`='ruik',`headImage`='http://123123',`loginDate`='2018-09-17 18:26:23'  WHERE  `openId` = '15189752925' [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_step_log` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17'  AND `type` = 0 LIMIT 1 [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT SUM(step) AS tp_sum FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17' LIMIT 1 [ RunTime:0.007000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `stepNumber`='3800'  WHERE  `openid` = '15189752925' [ RunTime:0.010000s ]
+---------------------------------------------------------------
+[ 2018-09-17T18:27:31+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.330000s][吞吐率：3.03req/s] [内存消耗：3,759.91kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '2417',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '19d99901-1e19-1a3c-0687-649ff87e308b',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryeCtb51RXGILxAVqS',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+  'page' => '1',
+  'wxData' => 'lNQrBbq2usl16jkkWnfaRTtQGIKNvNNGY4jjTMRiyZ2fiIBlrAVwwLMntJ3siaJ07K3fkrxa1fZJxc+bX8pG3VZMaTfzHI5JE6rExk3Toxd/3rDkYkAQP6n4JyVeWuLF7y2oREdxYOB+CZnJbc37yhE0Zt59eUkJ8MT82JBAYFf63b/Xz8vuMTBoHODj2iWDbDEbhCDC8ClDszChTjEdC1RF+zrrQCXj4WUpDJJq66YhmBwg/8Br6YPDUSCH5f/bT3ygTMtb0CDh4JrXwB1gJdZRnrMLO27Zrp/21oZiOENGWjz5POr9BocNFlQ8G2oU7HRomsL0XSIGW3u8bcRSFkYO1DwGsDUzWmHa9MZvFypTv66EL5qnNOG2EKZyG+Qt0sTnmi5kiOMmJLqdxI0CLcIczyZM/cbMujd9jOiY1Kd7uMIyQAigxEDosqpaQ94eDkPpIlQ4dNBzPSOIJXUShgEFCvofT+zLC5/1lspew0n8apBtnXZSHSaVo1CMJT9quYngMr7xZArHJW70l+dnA0pCuzOkVNQZGW8J88dVTs2hAiDiPkXMsu5J0tZG3BwJYbS3L4Rbaowc9+ua9zP0jJ11ghtD1iqvjNlWy685axcFflmP28RGy9vjsbLgZ1wzGRTUni9kDfzVE0XrA65ItgJ5pqBlksCdbYsR2S/r3NLuB9IuBhmUX5k5ZuWZ+G9V3dMtf0D8T9yNtLsNb5PeUWVygylMdPVJsfWQ0sSr8UfXyuUqEWtNYEzE0Csy9OuqHOZXdYwAkmb/mr3rybzhQLqCR67c3IaTria40rhenziwPZ9xZXlvVJBVY9NsXj/tb5jvvx5PxywxaFJFFn+hcsfXokyw9i64iNDJShraxU9mSr5REB09+Ur+K63ugplv+5CCRIPDC43yaWkBOxc9cCy9gvRx6Pfvy9Nk8wA93/llx5vNl/+cl2kxRpq9ueB5Nx16GWSpFWwWL36BBmZtEJjKclD3j7OeRjGjomnsplHbUEBhpmmZ+toaVdrj0xf/IbfHyTjA/Q5pfe0knUURSVECUqmq1wEgRPPRORCredcoHzVVVzm2k6VGFVuH1OzK6edBmMCrIUA+ZN+ql+lMfa2Te0Kgi3h4IEP9IXHFB8R07a+JObfvOGjUrYEZ4DcaTA4AO//jIVv7vaDosGgFPnjX2vJN7XDrseibaH9S54C63FAZHnIgLBdw2jfxtaHL8SMIIyLmLvkKDnvxwkh6e2yTFQXPzebPMQy+khXkk6gfzu1vVLLfhTOiJ5Z3vE85bpCotykatBGGnvJzQKFvVZQf2Lt3QXpuMzkUso2WkxNreQDJ5J4OhMk+wz4GUu3OcxHvKiBSwgRN/aNSabeKwLGZdWnd5WqFgbYntknaCbV/Qxl4zSwU79R8hC2ZfAlg8jT73kift7PmiW3sjB5K4+9tKVOhn4gqX0f9qyTxQNkTmGOpDe5Mr2uaoOJT5gztqlIPC/qZ+m4Il83oyrtwl0vkcchsxWNno7FMv95zRItlE2wHa0rHK4QobiY6FhV9FqRBDB68u9J3z0U6Qm/862c+aFyWTvzNKxyUyWe7bYuhboJncyjCSHlWrkHRS2L4C7JfapoYGGDJP4oIC+mF49RqDRNTOGLUFp2f3QpQM8s=',
+  'wxIv' => '753xjVcA2Bz9B7dQqlyGkQ==',
+  'sessionKey' => '7b1dnMRzgnGj0zuPR4Tmkw==',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.014000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `name`='ruik',`headImage`='http://123123',`loginDate`='2018-09-17 18:27:31'  WHERE  `openId` = '15189752925' [ RunTime:0.018000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_step_log` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17'  AND `type` = 0 LIMIT 1 [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT SUM(step) AS tp_sum FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17' LIMIT 1 [ RunTime:0.012000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `stepNumber`='3800'  WHERE  `openid` = '15189752925' [ RunTime:0.017000s ]
+---------------------------------------------------------------
+[ 2018-09-17T18:27:57+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.347000s][吞吐率：2.88req/s] [内存消耗：3,759.39kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '2417',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '3815aa93-48a3-c456-4efe-ef629c67c231',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryOoXB9ZQaA7nb7k9B',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+  'page' => '1',
+  'wxData' => 'lNQrBbq2usl16jkkWnfaRTtQGIKNvNNGY4jjTMRiyZ2fiIBlrAVwwLMntJ3siaJ07K3fkrxa1fZJxc+bX8pG3VZMaTfzHI5JE6rExk3Toxd/3rDkYkAQP6n4JyVeWuLF7y2oREdxYOB+CZnJbc37yhE0Zt59eUkJ8MT82JBAYFf63b/Xz8vuMTBoHODj2iWDbDEbhCDC8ClDszChTjEdC1RF+zrrQCXj4WUpDJJq66YhmBwg/8Br6YPDUSCH5f/bT3ygTMtb0CDh4JrXwB1gJdZRnrMLO27Zrp/21oZiOENGWjz5POr9BocNFlQ8G2oU7HRomsL0XSIGW3u8bcRSFkYO1DwGsDUzWmHa9MZvFypTv66EL5qnNOG2EKZyG+Qt0sTnmi5kiOMmJLqdxI0CLcIczyZM/cbMujd9jOiY1Kd7uMIyQAigxEDosqpaQ94eDkPpIlQ4dNBzPSOIJXUShgEFCvofT+zLC5/1lspew0n8apBtnXZSHSaVo1CMJT9quYngMr7xZArHJW70l+dnA0pCuzOkVNQZGW8J88dVTs2hAiDiPkXMsu5J0tZG3BwJYbS3L4Rbaowc9+ua9zP0jJ11ghtD1iqvjNlWy685axcFflmP28RGy9vjsbLgZ1wzGRTUni9kDfzVE0XrA65ItgJ5pqBlksCdbYsR2S/r3NLuB9IuBhmUX5k5ZuWZ+G9V3dMtf0D8T9yNtLsNb5PeUWVygylMdPVJsfWQ0sSr8UfXyuUqEWtNYEzE0Csy9OuqHOZXdYwAkmb/mr3rybzhQLqCR67c3IaTria40rhenziwPZ9xZXlvVJBVY9NsXj/tb5jvvx5PxywxaFJFFn+hcsfXokyw9i64iNDJShraxU9mSr5REB09+Ur+K63ugplv+5CCRIPDC43yaWkBOxc9cCy9gvRx6Pfvy9Nk8wA93/llx5vNl/+cl2kxRpq9ueB5Nx16GWSpFWwWL36BBmZtEJjKclD3j7OeRjGjomnsplHbUEBhpmmZ+toaVdrj0xf/IbfHyTjA/Q5pfe0knUURSVECUqmq1wEgRPPRORCredcoHzVVVzm2k6VGFVuH1OzK6edBmMCrIUA+ZN+ql+lMfa2Te0Kgi3h4IEP9IXHFB8R07a+JObfvOGjUrYEZ4DcaTA4AO//jIVv7vaDosGgFPnjX2vJN7XDrseibaH9S54C63FAZHnIgLBdw2jfxtaHL8SMIIyLmLvkKDnvxwkh6e2yTFQXPzebPMQy+khXkk6gfzu1vVLLfhTOiJ5Z3vE85bpCotykatBGGnvJzQKFvVZQf2Lt3QXpuMzkUso2WkxNreQDJ5J4OhMk+wz4GUu3OcxHvKiBSwgRN/aNSabeKwLGZdWnd5WqFgbYntknaCbV/Qxl4zSwU79R8hC2ZfAlg8jT73kift7PmiW3sjB5K4+9tKVOhn4gqX0f9qyTxQNkTmGOpDe5Mr2uaoOJT5gztqlIPC/qZ+m4Il83oyrtwl0vkcchsxWNno7FMv95zRItlE2wHa0rHK4QobiY6FhV9FqRBDB68u9J3z0U6Qm/862c+aFyWTvzNKxyUyWe7bYuhboJncyjCSHlWrkHRS2L4C7JfapoYGGDJP4oIC+mF49RqDRNTOGLUFp2f3QpQM8s=',
+  'wxIv' => '753xjVcA2Bz9B7dQqlyGkQ==',
+  'sessionKey' => '7b1dnMRzgnGj0zuPR4Tmkw==',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.012000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `name`='ruik',`headImage`='http://123123',`loginDate`='2018-09-17 18:27:56'  WHERE  `openId` = '15189752925' [ RunTime:0.016000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_step_log` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17'  AND `type` = 0 LIMIT 1 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT SUM(step) AS tp_sum FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17' LIMIT 1 [ RunTime:0.014000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `stepNumber`='3800'  WHERE  `openid` = '15189752925' [ RunTime:0.017000s ]
+---------------------------------------------------------------
+[ 2018-09-17T18:29:16+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.292000s][吞吐率：3.42req/s] [内存消耗：3,759.40kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '2417',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => 'e9736126-005b-2d39-ee8b-80c6e8343821',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary6EBAC84A7sJ5Pwt8',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+  'page' => '1',
+  'wxData' => 'lNQrBbq2usl16jkkWnfaRTtQGIKNvNNGY4jjTMRiyZ2fiIBlrAVwwLMntJ3siaJ07K3fkrxa1fZJxc+bX8pG3VZMaTfzHI5JE6rExk3Toxd/3rDkYkAQP6n4JyVeWuLF7y2oREdxYOB+CZnJbc37yhE0Zt59eUkJ8MT82JBAYFf63b/Xz8vuMTBoHODj2iWDbDEbhCDC8ClDszChTjEdC1RF+zrrQCXj4WUpDJJq66YhmBwg/8Br6YPDUSCH5f/bT3ygTMtb0CDh4JrXwB1gJdZRnrMLO27Zrp/21oZiOENGWjz5POr9BocNFlQ8G2oU7HRomsL0XSIGW3u8bcRSFkYO1DwGsDUzWmHa9MZvFypTv66EL5qnNOG2EKZyG+Qt0sTnmi5kiOMmJLqdxI0CLcIczyZM/cbMujd9jOiY1Kd7uMIyQAigxEDosqpaQ94eDkPpIlQ4dNBzPSOIJXUShgEFCvofT+zLC5/1lspew0n8apBtnXZSHSaVo1CMJT9quYngMr7xZArHJW70l+dnA0pCuzOkVNQZGW8J88dVTs2hAiDiPkXMsu5J0tZG3BwJYbS3L4Rbaowc9+ua9zP0jJ11ghtD1iqvjNlWy685axcFflmP28RGy9vjsbLgZ1wzGRTUni9kDfzVE0XrA65ItgJ5pqBlksCdbYsR2S/r3NLuB9IuBhmUX5k5ZuWZ+G9V3dMtf0D8T9yNtLsNb5PeUWVygylMdPVJsfWQ0sSr8UfXyuUqEWtNYEzE0Csy9OuqHOZXdYwAkmb/mr3rybzhQLqCR67c3IaTria40rhenziwPZ9xZXlvVJBVY9NsXj/tb5jvvx5PxywxaFJFFn+hcsfXokyw9i64iNDJShraxU9mSr5REB09+Ur+K63ugplv+5CCRIPDC43yaWkBOxc9cCy9gvRx6Pfvy9Nk8wA93/llx5vNl/+cl2kxRpq9ueB5Nx16GWSpFWwWL36BBmZtEJjKclD3j7OeRjGjomnsplHbUEBhpmmZ+toaVdrj0xf/IbfHyTjA/Q5pfe0knUURSVECUqmq1wEgRPPRORCredcoHzVVVzm2k6VGFVuH1OzK6edBmMCrIUA+ZN+ql+lMfa2Te0Kgi3h4IEP9IXHFB8R07a+JObfvOGjUrYEZ4DcaTA4AO//jIVv7vaDosGgFPnjX2vJN7XDrseibaH9S54C63FAZHnIgLBdw2jfxtaHL8SMIIyLmLvkKDnvxwkh6e2yTFQXPzebPMQy+khXkk6gfzu1vVLLfhTOiJ5Z3vE85bpCotykatBGGnvJzQKFvVZQf2Lt3QXpuMzkUso2WkxNreQDJ5J4OhMk+wz4GUu3OcxHvKiBSwgRN/aNSabeKwLGZdWnd5WqFgbYntknaCbV/Qxl4zSwU79R8hC2ZfAlg8jT73kift7PmiW3sjB5K4+9tKVOhn4gqX0f9qyTxQNkTmGOpDe5Mr2uaoOJT5gztqlIPC/qZ+m4Il83oyrtwl0vkcchsxWNno7FMv95zRItlE2wHa0rHK4QobiY6FhV9FqRBDB68u9J3z0U6Qm/862c+aFyWTvzNKxyUyWe7bYuhboJncyjCSHlWrkHRS2L4C7JfapoYGGDJP4oIC+mF49RqDRNTOGLUFp2f3QpQM8s=',
+  'wxIv' => '753xjVcA2Bz9B7dQqlyGkQ==',
+  'sessionKey' => '7b1dnMRzgnGj0zuPR4Tmkw==',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.008000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `name`='ruik',`headImage`='http://123123',`loginDate`='2018-09-17 18:29:16'  WHERE  `openId` = '15189752925' [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_step_log` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17'  AND `type` = 0 LIMIT 1 [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT SUM(step) AS tp_sum FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17' LIMIT 1 [ RunTime:0.009000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `stepNumber`='3800'  WHERE  `openid` = '15189752925' [ RunTime:0.013000s ]
+---------------------------------------------------------------
+[ 2018-09-17T18:29:57+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.351000s][吞吐率：2.85req/s] [内存消耗：3,759.56kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '2417',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '40178bc8-84d3-4978-3dc8-d271cfe918fd',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarySRfmxBgxxjGlJgIr',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+  'page' => '1',
+  'wxData' => 'lNQrBbq2usl16jkkWnfaRTtQGIKNvNNGY4jjTMRiyZ2fiIBlrAVwwLMntJ3siaJ07K3fkrxa1fZJxc+bX8pG3VZMaTfzHI5JE6rExk3Toxd/3rDkYkAQP6n4JyVeWuLF7y2oREdxYOB+CZnJbc37yhE0Zt59eUkJ8MT82JBAYFf63b/Xz8vuMTBoHODj2iWDbDEbhCDC8ClDszChTjEdC1RF+zrrQCXj4WUpDJJq66YhmBwg/8Br6YPDUSCH5f/bT3ygTMtb0CDh4JrXwB1gJdZRnrMLO27Zrp/21oZiOENGWjz5POr9BocNFlQ8G2oU7HRomsL0XSIGW3u8bcRSFkYO1DwGsDUzWmHa9MZvFypTv66EL5qnNOG2EKZyG+Qt0sTnmi5kiOMmJLqdxI0CLcIczyZM/cbMujd9jOiY1Kd7uMIyQAigxEDosqpaQ94eDkPpIlQ4dNBzPSOIJXUShgEFCvofT+zLC5/1lspew0n8apBtnXZSHSaVo1CMJT9quYngMr7xZArHJW70l+dnA0pCuzOkVNQZGW8J88dVTs2hAiDiPkXMsu5J0tZG3BwJYbS3L4Rbaowc9+ua9zP0jJ11ghtD1iqvjNlWy685axcFflmP28RGy9vjsbLgZ1wzGRTUni9kDfzVE0XrA65ItgJ5pqBlksCdbYsR2S/r3NLuB9IuBhmUX5k5ZuWZ+G9V3dMtf0D8T9yNtLsNb5PeUWVygylMdPVJsfWQ0sSr8UfXyuUqEWtNYEzE0Csy9OuqHOZXdYwAkmb/mr3rybzhQLqCR67c3IaTria40rhenziwPZ9xZXlvVJBVY9NsXj/tb5jvvx5PxywxaFJFFn+hcsfXokyw9i64iNDJShraxU9mSr5REB09+Ur+K63ugplv+5CCRIPDC43yaWkBOxc9cCy9gvRx6Pfvy9Nk8wA93/llx5vNl/+cl2kxRpq9ueB5Nx16GWSpFWwWL36BBmZtEJjKclD3j7OeRjGjomnsplHbUEBhpmmZ+toaVdrj0xf/IbfHyTjA/Q5pfe0knUURSVECUqmq1wEgRPPRORCredcoHzVVVzm2k6VGFVuH1OzK6edBmMCrIUA+ZN+ql+lMfa2Te0Kgi3h4IEP9IXHFB8R07a+JObfvOGjUrYEZ4DcaTA4AO//jIVv7vaDosGgFPnjX2vJN7XDrseibaH9S54C63FAZHnIgLBdw2jfxtaHL8SMIIyLmLvkKDnvxwkh6e2yTFQXPzebPMQy+khXkk6gfzu1vVLLfhTOiJ5Z3vE85bpCotykatBGGnvJzQKFvVZQf2Lt3QXpuMzkUso2WkxNreQDJ5J4OhMk+wz4GUu3OcxHvKiBSwgRN/aNSabeKwLGZdWnd5WqFgbYntknaCbV/Qxl4zSwU79R8hC2ZfAlg8jT73kift7PmiW3sjB5K4+9tKVOhn4gqX0f9qyTxQNkTmGOpDe5Mr2uaoOJT5gztqlIPC/qZ+m4Il83oyrtwl0vkcchsxWNno7FMv95zRItlE2wHa0rHK4QobiY6FhV9FqRBDB68u9J3z0U6Qm/862c+aFyWTvzNKxyUyWe7bYuhboJncyjCSHlWrkHRS2L4C7JfapoYGGDJP4oIC+mF49RqDRNTOGLUFp2f3QpQM8s=',
+  'wxIv' => '753xjVcA2Bz9B7dQqlyGkQ==',
+  'sessionKey' => '7b1dnMRzgnGj0zuPR4Tmkw==',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.016000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.014000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `name`='ruik',`headImage`='http://123123',`loginDate`='2018-09-17 18:29:57'  WHERE  `openId` = '15189752925' [ RunTime:0.018000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_step_log` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17'  AND `type` = 0 LIMIT 1 [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT SUM(step) AS tp_sum FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17' LIMIT 1 [ RunTime:0.012000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `stepNumber`='3800'  WHERE  `openid` = '15189752925' [ RunTime:0.033000s ]
+---------------------------------------------------------------
+[ 2018-09-17T18:30:12+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.336000s][吞吐率：2.98req/s] [内存消耗：3,759.40kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '2417',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '9b5e2321-8600-d0a4-105e-073c2983ddc9',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryMx6phMAq0InvBBTk',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+  'page' => '1',
+  'wxData' => 'lNQrBbq2usl16jkkWnfaRTtQGIKNvNNGY4jjTMRiyZ2fiIBlrAVwwLMntJ3siaJ07K3fkrxa1fZJxc+bX8pG3VZMaTfzHI5JE6rExk3Toxd/3rDkYkAQP6n4JyVeWuLF7y2oREdxYOB+CZnJbc37yhE0Zt59eUkJ8MT82JBAYFf63b/Xz8vuMTBoHODj2iWDbDEbhCDC8ClDszChTjEdC1RF+zrrQCXj4WUpDJJq66YhmBwg/8Br6YPDUSCH5f/bT3ygTMtb0CDh4JrXwB1gJdZRnrMLO27Zrp/21oZiOENGWjz5POr9BocNFlQ8G2oU7HRomsL0XSIGW3u8bcRSFkYO1DwGsDUzWmHa9MZvFypTv66EL5qnNOG2EKZyG+Qt0sTnmi5kiOMmJLqdxI0CLcIczyZM/cbMujd9jOiY1Kd7uMIyQAigxEDosqpaQ94eDkPpIlQ4dNBzPSOIJXUShgEFCvofT+zLC5/1lspew0n8apBtnXZSHSaVo1CMJT9quYngMr7xZArHJW70l+dnA0pCuzOkVNQZGW8J88dVTs2hAiDiPkXMsu5J0tZG3BwJYbS3L4Rbaowc9+ua9zP0jJ11ghtD1iqvjNlWy685axcFflmP28RGy9vjsbLgZ1wzGRTUni9kDfzVE0XrA65ItgJ5pqBlksCdbYsR2S/r3NLuB9IuBhmUX5k5ZuWZ+G9V3dMtf0D8T9yNtLsNb5PeUWVygylMdPVJsfWQ0sSr8UfXyuUqEWtNYEzE0Csy9OuqHOZXdYwAkmb/mr3rybzhQLqCR67c3IaTria40rhenziwPZ9xZXlvVJBVY9NsXj/tb5jvvx5PxywxaFJFFn+hcsfXokyw9i64iNDJShraxU9mSr5REB09+Ur+K63ugplv+5CCRIPDC43yaWkBOxc9cCy9gvRx6Pfvy9Nk8wA93/llx5vNl/+cl2kxRpq9ueB5Nx16GWSpFWwWL36BBmZtEJjKclD3j7OeRjGjomnsplHbUEBhpmmZ+toaVdrj0xf/IbfHyTjA/Q5pfe0knUURSVECUqmq1wEgRPPRORCredcoHzVVVzm2k6VGFVuH1OzK6edBmMCrIUA+ZN+ql+lMfa2Te0Kgi3h4IEP9IXHFB8R07a+JObfvOGjUrYEZ4DcaTA4AO//jIVv7vaDosGgFPnjX2vJN7XDrseibaH9S54C63FAZHnIgLBdw2jfxtaHL8SMIIyLmLvkKDnvxwkh6e2yTFQXPzebPMQy+khXkk6gfzu1vVLLfhTOiJ5Z3vE85bpCotykatBGGnvJzQKFvVZQf2Lt3QXpuMzkUso2WkxNreQDJ5J4OhMk+wz4GUu3OcxHvKiBSwgRN/aNSabeKwLGZdWnd5WqFgbYntknaCbV/Qxl4zSwU79R8hC2ZfAlg8jT73kift7PmiW3sjB5K4+9tKVOhn4gqX0f9qyTxQNkTmGOpDe5Mr2uaoOJT5gztqlIPC/qZ+m4Il83oyrtwl0vkcchsxWNno7FMv95zRItlE2wHa0rHK4QobiY6FhV9FqRBDB68u9J3z0U6Qm/862c+aFyWTvzNKxyUyWe7bYuhboJncyjCSHlWrkHRS2L4C7JfapoYGGDJP4oIC+mF49RqDRNTOGLUFp2f3QpQM8s=',
+  'wxIv' => '753xjVcA2Bz9B7dQqlyGkQ==',
+  'sessionKey' => '7b1dnMRzgnGj0zuPR4Tmkw==',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.016000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.014000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `name`='ruik',`headImage`='http://123123',`loginDate`='2018-09-17 18:30:12'  WHERE  `openId` = '15189752925' [ RunTime:0.017000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_step_log` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17'  AND `type` = 0 LIMIT 1 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT SUM(step) AS tp_sum FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17' LIMIT 1 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `stepNumber`='3800'  WHERE  `openid` = '15189752925' [ RunTime:0.016000s ]
+---------------------------------------------------------------
+[ 2018-09-17T18:31:20+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.362000s][吞吐率：2.76req/s] [内存消耗：3,770.23kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '2417',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => 'ef6f363d-d861-cd7b-9c0d-10a32b04b1d6',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarySyN3HToqeYebXHZi',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+  'page' => '1',
+  'wxData' => 'lNQrBbq2usl16jkkWnfaRTtQGIKNvNNGY4jjTMRiyZ2fiIBlrAVwwLMntJ3siaJ07K3fkrxa1fZJxc+bX8pG3VZMaTfzHI5JE6rExk3Toxd/3rDkYkAQP6n4JyVeWuLF7y2oREdxYOB+CZnJbc37yhE0Zt59eUkJ8MT82JBAYFf63b/Xz8vuMTBoHODj2iWDbDEbhCDC8ClDszChTjEdC1RF+zrrQCXj4WUpDJJq66YhmBwg/8Br6YPDUSCH5f/bT3ygTMtb0CDh4JrXwB1gJdZRnrMLO27Zrp/21oZiOENGWjz5POr9BocNFlQ8G2oU7HRomsL0XSIGW3u8bcRSFkYO1DwGsDUzWmHa9MZvFypTv66EL5qnNOG2EKZyG+Qt0sTnmi5kiOMmJLqdxI0CLcIczyZM/cbMujd9jOiY1Kd7uMIyQAigxEDosqpaQ94eDkPpIlQ4dNBzPSOIJXUShgEFCvofT+zLC5/1lspew0n8apBtnXZSHSaVo1CMJT9quYngMr7xZArHJW70l+dnA0pCuzOkVNQZGW8J88dVTs2hAiDiPkXMsu5J0tZG3BwJYbS3L4Rbaowc9+ua9zP0jJ11ghtD1iqvjNlWy685axcFflmP28RGy9vjsbLgZ1wzGRTUni9kDfzVE0XrA65ItgJ5pqBlksCdbYsR2S/r3NLuB9IuBhmUX5k5ZuWZ+G9V3dMtf0D8T9yNtLsNb5PeUWVygylMdPVJsfWQ0sSr8UfXyuUqEWtNYEzE0Csy9OuqHOZXdYwAkmb/mr3rybzhQLqCR67c3IaTria40rhenziwPZ9xZXlvVJBVY9NsXj/tb5jvvx5PxywxaFJFFn+hcsfXokyw9i64iNDJShraxU9mSr5REB09+Ur+K63ugplv+5CCRIPDC43yaWkBOxc9cCy9gvRx6Pfvy9Nk8wA93/llx5vNl/+cl2kxRpq9ueB5Nx16GWSpFWwWL36BBmZtEJjKclD3j7OeRjGjomnsplHbUEBhpmmZ+toaVdrj0xf/IbfHyTjA/Q5pfe0knUURSVECUqmq1wEgRPPRORCredcoHzVVVzm2k6VGFVuH1OzK6edBmMCrIUA+ZN+ql+lMfa2Te0Kgi3h4IEP9IXHFB8R07a+JObfvOGjUrYEZ4DcaTA4AO//jIVv7vaDosGgFPnjX2vJN7XDrseibaH9S54C63FAZHnIgLBdw2jfxtaHL8SMIIyLmLvkKDnvxwkh6e2yTFQXPzebPMQy+khXkk6gfzu1vVLLfhTOiJ5Z3vE85bpCotykatBGGnvJzQKFvVZQf2Lt3QXpuMzkUso2WkxNreQDJ5J4OhMk+wz4GUu3OcxHvKiBSwgRN/aNSabeKwLGZdWnd5WqFgbYntknaCbV/Qxl4zSwU79R8hC2ZfAlg8jT73kift7PmiW3sjB5K4+9tKVOhn4gqX0f9qyTxQNkTmGOpDe5Mr2uaoOJT5gztqlIPC/qZ+m4Il83oyrtwl0vkcchsxWNno7FMv95zRItlE2wHa0rHK4QobiY6FhV9FqRBDB68u9J3z0U6Qm/862c+aFyWTvzNKxyUyWe7bYuhboJncyjCSHlWrkHRS2L4C7JfapoYGGDJP4oIC+mF49RqDRNTOGLUFp2f3QpQM8s=',
+  'wxIv' => '753xjVcA2Bz9B7dQqlyGkQ==',
+  'sessionKey' => '7b1dnMRzgnGj0zuPR4Tmkw==',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.016000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `name`='ruik',`headImage`='http://123123',`loginDate`='2018-09-17 18:31:20'  WHERE  `openId` = '15189752925' [ RunTime:0.017000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_step_log` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17'  AND `type` = 0 LIMIT 1 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT SUM(step) AS tp_sum FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17' LIMIT 1 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `stepNumber`='1900'  WHERE  `openid` = '15189752925' [ RunTime:0.017000s ]
+[ sql ] [ SQL ] SELECT `headImage` FROM `user` WHERE  `shareOpenId` = '15189752925' ORDER BY id desc LIMIT 4 [ RunTime:0.013000s ]
+---------------------------------------------------------------
+[ 2018-09-17T18:31:26+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.332000s][吞吐率：3.01req/s] [内存消耗：3,759.39kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '2417',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => 'a4e6bc7e-4760-9d1f-fc3a-333fff9753fc',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarye5ddjbQI7oYDhAKx',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+  'page' => '1',
+  'wxData' => 'lNQrBbq2usl16jkkWnfaRTtQGIKNvNNGY4jjTMRiyZ2fiIBlrAVwwLMntJ3siaJ07K3fkrxa1fZJxc+bX8pG3VZMaTfzHI5JE6rExk3Toxd/3rDkYkAQP6n4JyVeWuLF7y2oREdxYOB+CZnJbc37yhE0Zt59eUkJ8MT82JBAYFf63b/Xz8vuMTBoHODj2iWDbDEbhCDC8ClDszChTjEdC1RF+zrrQCXj4WUpDJJq66YhmBwg/8Br6YPDUSCH5f/bT3ygTMtb0CDh4JrXwB1gJdZRnrMLO27Zrp/21oZiOENGWjz5POr9BocNFlQ8G2oU7HRomsL0XSIGW3u8bcRSFkYO1DwGsDUzWmHa9MZvFypTv66EL5qnNOG2EKZyG+Qt0sTnmi5kiOMmJLqdxI0CLcIczyZM/cbMujd9jOiY1Kd7uMIyQAigxEDosqpaQ94eDkPpIlQ4dNBzPSOIJXUShgEFCvofT+zLC5/1lspew0n8apBtnXZSHSaVo1CMJT9quYngMr7xZArHJW70l+dnA0pCuzOkVNQZGW8J88dVTs2hAiDiPkXMsu5J0tZG3BwJYbS3L4Rbaowc9+ua9zP0jJ11ghtD1iqvjNlWy685axcFflmP28RGy9vjsbLgZ1wzGRTUni9kDfzVE0XrA65ItgJ5pqBlksCdbYsR2S/r3NLuB9IuBhmUX5k5ZuWZ+G9V3dMtf0D8T9yNtLsNb5PeUWVygylMdPVJsfWQ0sSr8UfXyuUqEWtNYEzE0Csy9OuqHOZXdYwAkmb/mr3rybzhQLqCR67c3IaTria40rhenziwPZ9xZXlvVJBVY9NsXj/tb5jvvx5PxywxaFJFFn+hcsfXokyw9i64iNDJShraxU9mSr5REB09+Ur+K63ugplv+5CCRIPDC43yaWkBOxc9cCy9gvRx6Pfvy9Nk8wA93/llx5vNl/+cl2kxRpq9ueB5Nx16GWSpFWwWL36BBmZtEJjKclD3j7OeRjGjomnsplHbUEBhpmmZ+toaVdrj0xf/IbfHyTjA/Q5pfe0knUURSVECUqmq1wEgRPPRORCredcoHzVVVzm2k6VGFVuH1OzK6edBmMCrIUA+ZN+ql+lMfa2Te0Kgi3h4IEP9IXHFB8R07a+JObfvOGjUrYEZ4DcaTA4AO//jIVv7vaDosGgFPnjX2vJN7XDrseibaH9S54C63FAZHnIgLBdw2jfxtaHL8SMIIyLmLvkKDnvxwkh6e2yTFQXPzebPMQy+khXkk6gfzu1vVLLfhTOiJ5Z3vE85bpCotykatBGGnvJzQKFvVZQf2Lt3QXpuMzkUso2WkxNreQDJ5J4OhMk+wz4GUu3OcxHvKiBSwgRN/aNSabeKwLGZdWnd5WqFgbYntknaCbV/Qxl4zSwU79R8hC2ZfAlg8jT73kift7PmiW3sjB5K4+9tKVOhn4gqX0f9qyTxQNkTmGOpDe5Mr2uaoOJT5gztqlIPC/qZ+m4Il83oyrtwl0vkcchsxWNno7FMv95zRItlE2wHa0rHK4QobiY6FhV9FqRBDB68u9J3z0U6Qm/862c+aFyWTvzNKxyUyWe7bYuhboJncyjCSHlWrkHRS2L4C7JfapoYGGDJP4oIC+mF49RqDRNTOGLUFp2f3QpQM8s=',
+  'wxIv' => '753xjVcA2Bz9B7dQqlyGkQ==',
+  'sessionKey' => '7b1dnMRzgnGj0zuPR4Tmkw==',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `name`='ruik',`headImage`='http://123123',`loginDate`='2018-09-17 18:31:26'  WHERE  `openId` = '15189752925' [ RunTime:0.017000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_step_log` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17'  AND `type` = 0 LIMIT 1 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT SUM(step) AS tp_sum FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17' LIMIT 1 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `stepNumber`='1900'  WHERE  `openid` = '15189752925' [ RunTime:0.017000s ]
+---------------------------------------------------------------
+[ 2018-09-17T18:31:48+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.332000s][吞吐率：3.01req/s] [内存消耗：3,759.90kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '2417',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '1ff1d700-de3b-9b2c-314c-82287aa61c9d',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryHW165mU6MhE3GuJj',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+  'page' => '1',
+  'wxData' => 'lNQrBbq2usl16jkkWnfaRTtQGIKNvNNGY4jjTMRiyZ2fiIBlrAVwwLMntJ3siaJ07K3fkrxa1fZJxc+bX8pG3VZMaTfzHI5JE6rExk3Toxd/3rDkYkAQP6n4JyVeWuLF7y2oREdxYOB+CZnJbc37yhE0Zt59eUkJ8MT82JBAYFf63b/Xz8vuMTBoHODj2iWDbDEbhCDC8ClDszChTjEdC1RF+zrrQCXj4WUpDJJq66YhmBwg/8Br6YPDUSCH5f/bT3ygTMtb0CDh4JrXwB1gJdZRnrMLO27Zrp/21oZiOENGWjz5POr9BocNFlQ8G2oU7HRomsL0XSIGW3u8bcRSFkYO1DwGsDUzWmHa9MZvFypTv66EL5qnNOG2EKZyG+Qt0sTnmi5kiOMmJLqdxI0CLcIczyZM/cbMujd9jOiY1Kd7uMIyQAigxEDosqpaQ94eDkPpIlQ4dNBzPSOIJXUShgEFCvofT+zLC5/1lspew0n8apBtnXZSHSaVo1CMJT9quYngMr7xZArHJW70l+dnA0pCuzOkVNQZGW8J88dVTs2hAiDiPkXMsu5J0tZG3BwJYbS3L4Rbaowc9+ua9zP0jJ11ghtD1iqvjNlWy685axcFflmP28RGy9vjsbLgZ1wzGRTUni9kDfzVE0XrA65ItgJ5pqBlksCdbYsR2S/r3NLuB9IuBhmUX5k5ZuWZ+G9V3dMtf0D8T9yNtLsNb5PeUWVygylMdPVJsfWQ0sSr8UfXyuUqEWtNYEzE0Csy9OuqHOZXdYwAkmb/mr3rybzhQLqCR67c3IaTria40rhenziwPZ9xZXlvVJBVY9NsXj/tb5jvvx5PxywxaFJFFn+hcsfXokyw9i64iNDJShraxU9mSr5REB09+Ur+K63ugplv+5CCRIPDC43yaWkBOxc9cCy9gvRx6Pfvy9Nk8wA93/llx5vNl/+cl2kxRpq9ueB5Nx16GWSpFWwWL36BBmZtEJjKclD3j7OeRjGjomnsplHbUEBhpmmZ+toaVdrj0xf/IbfHyTjA/Q5pfe0knUURSVECUqmq1wEgRPPRORCredcoHzVVVzm2k6VGFVuH1OzK6edBmMCrIUA+ZN+ql+lMfa2Te0Kgi3h4IEP9IXHFB8R07a+JObfvOGjUrYEZ4DcaTA4AO//jIVv7vaDosGgFPnjX2vJN7XDrseibaH9S54C63FAZHnIgLBdw2jfxtaHL8SMIIyLmLvkKDnvxwkh6e2yTFQXPzebPMQy+khXkk6gfzu1vVLLfhTOiJ5Z3vE85bpCotykatBGGnvJzQKFvVZQf2Lt3QXpuMzkUso2WkxNreQDJ5J4OhMk+wz4GUu3OcxHvKiBSwgRN/aNSabeKwLGZdWnd5WqFgbYntknaCbV/Qxl4zSwU79R8hC2ZfAlg8jT73kift7PmiW3sjB5K4+9tKVOhn4gqX0f9qyTxQNkTmGOpDe5Mr2uaoOJT5gztqlIPC/qZ+m4Il83oyrtwl0vkcchsxWNno7FMv95zRItlE2wHa0rHK4QobiY6FhV9FqRBDB68u9J3z0U6Qm/862c+aFyWTvzNKxyUyWe7bYuhboJncyjCSHlWrkHRS2L4C7JfapoYGGDJP4oIC+mF49RqDRNTOGLUFp2f3QpQM8s=',
+  'wxIv' => '753xjVcA2Bz9B7dQqlyGkQ==',
+  'sessionKey' => '7b1dnMRzgnGj0zuPR4Tmkw==',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.010000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `name`='ruik',`headImage`='http://123123',`loginDate`='2018-09-17 18:31:48'  WHERE  `openId` = '15189752925' [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_step_log` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17'  AND `type` = 0 LIMIT 1 [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT SUM(step) AS tp_sum FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17' LIMIT 1 [ RunTime:0.009000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `stepNumber`='1900'  WHERE  `openid` = '15189752925' [ RunTime:0.010000s ]
+---------------------------------------------------------------
+[ 2018-09-17T18:32:11+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.330000s][吞吐率：3.03req/s] [内存消耗：3,759.90kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '2417',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '203e8d59-d9df-8d75-f8bc-4dff16eff030',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary18lOYaKyxvXVN4ms',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+  'page' => '1',
+  'wxData' => 'lNQrBbq2usl16jkkWnfaRTtQGIKNvNNGY4jjTMRiyZ2fiIBlrAVwwLMntJ3siaJ07K3fkrxa1fZJxc+bX8pG3VZMaTfzHI5JE6rExk3Toxd/3rDkYkAQP6n4JyVeWuLF7y2oREdxYOB+CZnJbc37yhE0Zt59eUkJ8MT82JBAYFf63b/Xz8vuMTBoHODj2iWDbDEbhCDC8ClDszChTjEdC1RF+zrrQCXj4WUpDJJq66YhmBwg/8Br6YPDUSCH5f/bT3ygTMtb0CDh4JrXwB1gJdZRnrMLO27Zrp/21oZiOENGWjz5POr9BocNFlQ8G2oU7HRomsL0XSIGW3u8bcRSFkYO1DwGsDUzWmHa9MZvFypTv66EL5qnNOG2EKZyG+Qt0sTnmi5kiOMmJLqdxI0CLcIczyZM/cbMujd9jOiY1Kd7uMIyQAigxEDosqpaQ94eDkPpIlQ4dNBzPSOIJXUShgEFCvofT+zLC5/1lspew0n8apBtnXZSHSaVo1CMJT9quYngMr7xZArHJW70l+dnA0pCuzOkVNQZGW8J88dVTs2hAiDiPkXMsu5J0tZG3BwJYbS3L4Rbaowc9+ua9zP0jJ11ghtD1iqvjNlWy685axcFflmP28RGy9vjsbLgZ1wzGRTUni9kDfzVE0XrA65ItgJ5pqBlksCdbYsR2S/r3NLuB9IuBhmUX5k5ZuWZ+G9V3dMtf0D8T9yNtLsNb5PeUWVygylMdPVJsfWQ0sSr8UfXyuUqEWtNYEzE0Csy9OuqHOZXdYwAkmb/mr3rybzhQLqCR67c3IaTria40rhenziwPZ9xZXlvVJBVY9NsXj/tb5jvvx5PxywxaFJFFn+hcsfXokyw9i64iNDJShraxU9mSr5REB09+Ur+K63ugplv+5CCRIPDC43yaWkBOxc9cCy9gvRx6Pfvy9Nk8wA93/llx5vNl/+cl2kxRpq9ueB5Nx16GWSpFWwWL36BBmZtEJjKclD3j7OeRjGjomnsplHbUEBhpmmZ+toaVdrj0xf/IbfHyTjA/Q5pfe0knUURSVECUqmq1wEgRPPRORCredcoHzVVVzm2k6VGFVuH1OzK6edBmMCrIUA+ZN+ql+lMfa2Te0Kgi3h4IEP9IXHFB8R07a+JObfvOGjUrYEZ4DcaTA4AO//jIVv7vaDosGgFPnjX2vJN7XDrseibaH9S54C63FAZHnIgLBdw2jfxtaHL8SMIIyLmLvkKDnvxwkh6e2yTFQXPzebPMQy+khXkk6gfzu1vVLLfhTOiJ5Z3vE85bpCotykatBGGnvJzQKFvVZQf2Lt3QXpuMzkUso2WkxNreQDJ5J4OhMk+wz4GUu3OcxHvKiBSwgRN/aNSabeKwLGZdWnd5WqFgbYntknaCbV/Qxl4zSwU79R8hC2ZfAlg8jT73kift7PmiW3sjB5K4+9tKVOhn4gqX0f9qyTxQNkTmGOpDe5Mr2uaoOJT5gztqlIPC/qZ+m4Il83oyrtwl0vkcchsxWNno7FMv95zRItlE2wHa0rHK4QobiY6FhV9FqRBDB68u9J3z0U6Qm/862c+aFyWTvzNKxyUyWe7bYuhboJncyjCSHlWrkHRS2L4C7JfapoYGGDJP4oIC+mF49RqDRNTOGLUFp2f3QpQM8s=',
+  'wxIv' => '753xjVcA2Bz9B7dQqlyGkQ==',
+  'sessionKey' => '7b1dnMRzgnGj0zuPR4Tmkw==',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `name`='ruik',`headImage`='http://123123',`loginDate`='2018-09-17 18:32:11'  WHERE  `openId` = '15189752925' [ RunTime:0.016000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_step_log` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17'  AND `type` = 0 LIMIT 1 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT SUM(step) AS tp_sum FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17' LIMIT 1 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `stepNumber`='1900'  WHERE  `openid` = '15189752925' [ RunTime:0.017000s ]
+---------------------------------------------------------------
+[ 2018-09-17T18:32:43+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.341000s][吞吐率：2.93req/s] [内存消耗：3,759.56kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '2417',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '940d2cee-a31b-c004-104a-0e41f9beff36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarydAXJAr519OODEsjc',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+  'page' => '1',
+  'wxData' => 'lNQrBbq2usl16jkkWnfaRTtQGIKNvNNGY4jjTMRiyZ2fiIBlrAVwwLMntJ3siaJ07K3fkrxa1fZJxc+bX8pG3VZMaTfzHI5JE6rExk3Toxd/3rDkYkAQP6n4JyVeWuLF7y2oREdxYOB+CZnJbc37yhE0Zt59eUkJ8MT82JBAYFf63b/Xz8vuMTBoHODj2iWDbDEbhCDC8ClDszChTjEdC1RF+zrrQCXj4WUpDJJq66YhmBwg/8Br6YPDUSCH5f/bT3ygTMtb0CDh4JrXwB1gJdZRnrMLO27Zrp/21oZiOENGWjz5POr9BocNFlQ8G2oU7HRomsL0XSIGW3u8bcRSFkYO1DwGsDUzWmHa9MZvFypTv66EL5qnNOG2EKZyG+Qt0sTnmi5kiOMmJLqdxI0CLcIczyZM/cbMujd9jOiY1Kd7uMIyQAigxEDosqpaQ94eDkPpIlQ4dNBzPSOIJXUShgEFCvofT+zLC5/1lspew0n8apBtnXZSHSaVo1CMJT9quYngMr7xZArHJW70l+dnA0pCuzOkVNQZGW8J88dVTs2hAiDiPkXMsu5J0tZG3BwJYbS3L4Rbaowc9+ua9zP0jJ11ghtD1iqvjNlWy685axcFflmP28RGy9vjsbLgZ1wzGRTUni9kDfzVE0XrA65ItgJ5pqBlksCdbYsR2S/r3NLuB9IuBhmUX5k5ZuWZ+G9V3dMtf0D8T9yNtLsNb5PeUWVygylMdPVJsfWQ0sSr8UfXyuUqEWtNYEzE0Csy9OuqHOZXdYwAkmb/mr3rybzhQLqCR67c3IaTria40rhenziwPZ9xZXlvVJBVY9NsXj/tb5jvvx5PxywxaFJFFn+hcsfXokyw9i64iNDJShraxU9mSr5REB09+Ur+K63ugplv+5CCRIPDC43yaWkBOxc9cCy9gvRx6Pfvy9Nk8wA93/llx5vNl/+cl2kxRpq9ueB5Nx16GWSpFWwWL36BBmZtEJjKclD3j7OeRjGjomnsplHbUEBhpmmZ+toaVdrj0xf/IbfHyTjA/Q5pfe0knUURSVECUqmq1wEgRPPRORCredcoHzVVVzm2k6VGFVuH1OzK6edBmMCrIUA+ZN+ql+lMfa2Te0Kgi3h4IEP9IXHFB8R07a+JObfvOGjUrYEZ4DcaTA4AO//jIVv7vaDosGgFPnjX2vJN7XDrseibaH9S54C63FAZHnIgLBdw2jfxtaHL8SMIIyLmLvkKDnvxwkh6e2yTFQXPzebPMQy+khXkk6gfzu1vVLLfhTOiJ5Z3vE85bpCotykatBGGnvJzQKFvVZQf2Lt3QXpuMzkUso2WkxNreQDJ5J4OhMk+wz4GUu3OcxHvKiBSwgRN/aNSabeKwLGZdWnd5WqFgbYntknaCbV/Qxl4zSwU79R8hC2ZfAlg8jT73kift7PmiW3sjB5K4+9tKVOhn4gqX0f9qyTxQNkTmGOpDe5Mr2uaoOJT5gztqlIPC/qZ+m4Il83oyrtwl0vkcchsxWNno7FMv95zRItlE2wHa0rHK4QobiY6FhV9FqRBDB68u9J3z0U6Qm/862c+aFyWTvzNKxyUyWe7bYuhboJncyjCSHlWrkHRS2L4C7JfapoYGGDJP4oIC+mF49RqDRNTOGLUFp2f3QpQM8s=',
+  'wxIv' => '753xjVcA2Bz9B7dQqlyGkQ==',
+  'sessionKey' => '7b1dnMRzgnGj0zuPR4Tmkw==',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `name`='ruik',`headImage`='http://123123',`loginDate`='2018-09-17 18:32:43'  WHERE  `openId` = '15189752925' [ RunTime:0.017000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_step_log` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17'  AND `type` = 0 LIMIT 1 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT SUM(step) AS tp_sum FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17' LIMIT 1 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `stepNumber`='1900'  WHERE  `openid` = '15189752925' [ RunTime:0.017000s ]
+---------------------------------------------------------------
+[ 2018-09-17T18:32:53+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.342000s][吞吐率：2.92req/s] [内存消耗：3,759.90kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '2417',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '7cff1f4a-2134-d030-2314-5eeee2e86086',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryIRaZUaQuB4tVuU4d',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+  'page' => '1',
+  'wxData' => 'lNQrBbq2usl16jkkWnfaRTtQGIKNvNNGY4jjTMRiyZ2fiIBlrAVwwLMntJ3siaJ07K3fkrxa1fZJxc+bX8pG3VZMaTfzHI5JE6rExk3Toxd/3rDkYkAQP6n4JyVeWuLF7y2oREdxYOB+CZnJbc37yhE0Zt59eUkJ8MT82JBAYFf63b/Xz8vuMTBoHODj2iWDbDEbhCDC8ClDszChTjEdC1RF+zrrQCXj4WUpDJJq66YhmBwg/8Br6YPDUSCH5f/bT3ygTMtb0CDh4JrXwB1gJdZRnrMLO27Zrp/21oZiOENGWjz5POr9BocNFlQ8G2oU7HRomsL0XSIGW3u8bcRSFkYO1DwGsDUzWmHa9MZvFypTv66EL5qnNOG2EKZyG+Qt0sTnmi5kiOMmJLqdxI0CLcIczyZM/cbMujd9jOiY1Kd7uMIyQAigxEDosqpaQ94eDkPpIlQ4dNBzPSOIJXUShgEFCvofT+zLC5/1lspew0n8apBtnXZSHSaVo1CMJT9quYngMr7xZArHJW70l+dnA0pCuzOkVNQZGW8J88dVTs2hAiDiPkXMsu5J0tZG3BwJYbS3L4Rbaowc9+ua9zP0jJ11ghtD1iqvjNlWy685axcFflmP28RGy9vjsbLgZ1wzGRTUni9kDfzVE0XrA65ItgJ5pqBlksCdbYsR2S/r3NLuB9IuBhmUX5k5ZuWZ+G9V3dMtf0D8T9yNtLsNb5PeUWVygylMdPVJsfWQ0sSr8UfXyuUqEWtNYEzE0Csy9OuqHOZXdYwAkmb/mr3rybzhQLqCR67c3IaTria40rhenziwPZ9xZXlvVJBVY9NsXj/tb5jvvx5PxywxaFJFFn+hcsfXokyw9i64iNDJShraxU9mSr5REB09+Ur+K63ugplv+5CCRIPDC43yaWkBOxc9cCy9gvRx6Pfvy9Nk8wA93/llx5vNl/+cl2kxRpq9ueB5Nx16GWSpFWwWL36BBmZtEJjKclD3j7OeRjGjomnsplHbUEBhpmmZ+toaVdrj0xf/IbfHyTjA/Q5pfe0knUURSVECUqmq1wEgRPPRORCredcoHzVVVzm2k6VGFVuH1OzK6edBmMCrIUA+ZN+ql+lMfa2Te0Kgi3h4IEP9IXHFB8R07a+JObfvOGjUrYEZ4DcaTA4AO//jIVv7vaDosGgFPnjX2vJN7XDrseibaH9S54C63FAZHnIgLBdw2jfxtaHL8SMIIyLmLvkKDnvxwkh6e2yTFQXPzebPMQy+khXkk6gfzu1vVLLfhTOiJ5Z3vE85bpCotykatBGGnvJzQKFvVZQf2Lt3QXpuMzkUso2WkxNreQDJ5J4OhMk+wz4GUu3OcxHvKiBSwgRN/aNSabeKwLGZdWnd5WqFgbYntknaCbV/Qxl4zSwU79R8hC2ZfAlg8jT73kift7PmiW3sjB5K4+9tKVOhn4gqX0f9qyTxQNkTmGOpDe5Mr2uaoOJT5gztqlIPC/qZ+m4Il83oyrtwl0vkcchsxWNno7FMv95zRItlE2wHa0rHK4QobiY6FhV9FqRBDB68u9J3z0U6Qm/862c+aFyWTvzNKxyUyWe7bYuhboJncyjCSHlWrkHRS2L4C7JfapoYGGDJP4oIC+mF49RqDRNTOGLUFp2f3QpQM8s=',
+  'wxIv' => '753xjVcA2Bz9B7dQqlyGkQ==',
+  'sessionKey' => '7b1dnMRzgnGj0zuPR4Tmkw==',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.014000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `name`='ruik',`headImage`='http://123123',`loginDate`='2018-09-17 18:32:53'  WHERE  `openId` = '15189752925' [ RunTime:0.018000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_step_log` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17'  AND `type` = 0 LIMIT 1 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT SUM(step) AS tp_sum FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17' LIMIT 1 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `stepNumber`='1900'  WHERE  `openid` = '15189752925' [ RunTime:0.017000s ]
+---------------------------------------------------------------
+[ 2018-09-17T18:34:46+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.623000s][吞吐率：1.61req/s] [内存消耗：3,770.44kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '2417',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '6e89a605-0cdc-a7b7-c867-6f14b5cb55e0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryNujwQ32zkB7EurqV',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+  'page' => '1',
+  'wxData' => 'lNQrBbq2usl16jkkWnfaRTtQGIKNvNNGY4jjTMRiyZ2fiIBlrAVwwLMntJ3siaJ07K3fkrxa1fZJxc+bX8pG3VZMaTfzHI5JE6rExk3Toxd/3rDkYkAQP6n4JyVeWuLF7y2oREdxYOB+CZnJbc37yhE0Zt59eUkJ8MT82JBAYFf63b/Xz8vuMTBoHODj2iWDbDEbhCDC8ClDszChTjEdC1RF+zrrQCXj4WUpDJJq66YhmBwg/8Br6YPDUSCH5f/bT3ygTMtb0CDh4JrXwB1gJdZRnrMLO27Zrp/21oZiOENGWjz5POr9BocNFlQ8G2oU7HRomsL0XSIGW3u8bcRSFkYO1DwGsDUzWmHa9MZvFypTv66EL5qnNOG2EKZyG+Qt0sTnmi5kiOMmJLqdxI0CLcIczyZM/cbMujd9jOiY1Kd7uMIyQAigxEDosqpaQ94eDkPpIlQ4dNBzPSOIJXUShgEFCvofT+zLC5/1lspew0n8apBtnXZSHSaVo1CMJT9quYngMr7xZArHJW70l+dnA0pCuzOkVNQZGW8J88dVTs2hAiDiPkXMsu5J0tZG3BwJYbS3L4Rbaowc9+ua9zP0jJ11ghtD1iqvjNlWy685axcFflmP28RGy9vjsbLgZ1wzGRTUni9kDfzVE0XrA65ItgJ5pqBlksCdbYsR2S/r3NLuB9IuBhmUX5k5ZuWZ+G9V3dMtf0D8T9yNtLsNb5PeUWVygylMdPVJsfWQ0sSr8UfXyuUqEWtNYEzE0Csy9OuqHOZXdYwAkmb/mr3rybzhQLqCR67c3IaTria40rhenziwPZ9xZXlvVJBVY9NsXj/tb5jvvx5PxywxaFJFFn+hcsfXokyw9i64iNDJShraxU9mSr5REB09+Ur+K63ugplv+5CCRIPDC43yaWkBOxc9cCy9gvRx6Pfvy9Nk8wA93/llx5vNl/+cl2kxRpq9ueB5Nx16GWSpFWwWL36BBmZtEJjKclD3j7OeRjGjomnsplHbUEBhpmmZ+toaVdrj0xf/IbfHyTjA/Q5pfe0knUURSVECUqmq1wEgRPPRORCredcoHzVVVzm2k6VGFVuH1OzK6edBmMCrIUA+ZN+ql+lMfa2Te0Kgi3h4IEP9IXHFB8R07a+JObfvOGjUrYEZ4DcaTA4AO//jIVv7vaDosGgFPnjX2vJN7XDrseibaH9S54C63FAZHnIgLBdw2jfxtaHL8SMIIyLmLvkKDnvxwkh6e2yTFQXPzebPMQy+khXkk6gfzu1vVLLfhTOiJ5Z3vE85bpCotykatBGGnvJzQKFvVZQf2Lt3QXpuMzkUso2WkxNreQDJ5J4OhMk+wz4GUu3OcxHvKiBSwgRN/aNSabeKwLGZdWnd5WqFgbYntknaCbV/Qxl4zSwU79R8hC2ZfAlg8jT73kift7PmiW3sjB5K4+9tKVOhn4gqX0f9qyTxQNkTmGOpDe5Mr2uaoOJT5gztqlIPC/qZ+m4Il83oyrtwl0vkcchsxWNno7FMv95zRItlE2wHa0rHK4QobiY6FhV9FqRBDB68u9J3z0U6Qm/862c+aFyWTvzNKxyUyWe7bYuhboJncyjCSHlWrkHRS2L4C7JfapoYGGDJP4oIC+mF49RqDRNTOGLUFp2f3QpQM8s=',
+  'wxIv' => '753xjVcA2Bz9B7dQqlyGkQ==',
+  'sessionKey' => '7b1dnMRzgnGj0zuPR4Tmkw==',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.008000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `name`='ruik',`headImage`='http://123123',`loginDate`='2018-09-17 18:34:46'  WHERE  `openId` = '15189752925' [ RunTime:0.323000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_step_log` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17'  AND `type` = 0 LIMIT 1 [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT SUM(step) AS tp_sum FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17' LIMIT 1 [ RunTime:0.008000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `stepNumber`='1900'  WHERE  `openid` = '15189752925' [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT `headImage` FROM `user` WHERE  `shareOpenId` = '15189752925' ORDER BY id desc LIMIT 4 [ RunTime:0.009000s ]
+---------------------------------------------------------------
+[ 2018-09-17T18:36:18+08:00 ] 0.0.0.0 POST /walk/Home/uploadUserInfo
+[ info ] localhost/walk/Home/uploadUserInfo [运行时间：0.360000s][吞吐率：2.78req/s] [内存消耗：3,770.44kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'uploadUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '2417',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'postman-token' => '8ea32846-cb50-6cc1-f6c6-66554d33ad6b',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryffrm9f8sBAlsjRm7',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'openId' => '15189752925',
+  'name' => 'ruik',
+  'headImage' => 'http://123123',
+  'page' => '1',
+  'wxData' => 'lNQrBbq2usl16jkkWnfaRTtQGIKNvNNGY4jjTMRiyZ2fiIBlrAVwwLMntJ3siaJ07K3fkrxa1fZJxc+bX8pG3VZMaTfzHI5JE6rExk3Toxd/3rDkYkAQP6n4JyVeWuLF7y2oREdxYOB+CZnJbc37yhE0Zt59eUkJ8MT82JBAYFf63b/Xz8vuMTBoHODj2iWDbDEbhCDC8ClDszChTjEdC1RF+zrrQCXj4WUpDJJq66YhmBwg/8Br6YPDUSCH5f/bT3ygTMtb0CDh4JrXwB1gJdZRnrMLO27Zrp/21oZiOENGWjz5POr9BocNFlQ8G2oU7HRomsL0XSIGW3u8bcRSFkYO1DwGsDUzWmHa9MZvFypTv66EL5qnNOG2EKZyG+Qt0sTnmi5kiOMmJLqdxI0CLcIczyZM/cbMujd9jOiY1Kd7uMIyQAigxEDosqpaQ94eDkPpIlQ4dNBzPSOIJXUShgEFCvofT+zLC5/1lspew0n8apBtnXZSHSaVo1CMJT9quYngMr7xZArHJW70l+dnA0pCuzOkVNQZGW8J88dVTs2hAiDiPkXMsu5J0tZG3BwJYbS3L4Rbaowc9+ua9zP0jJ11ghtD1iqvjNlWy685axcFflmP28RGy9vjsbLgZ1wzGRTUni9kDfzVE0XrA65ItgJ5pqBlksCdbYsR2S/r3NLuB9IuBhmUX5k5ZuWZ+G9V3dMtf0D8T9yNtLsNb5PeUWVygylMdPVJsfWQ0sSr8UfXyuUqEWtNYEzE0Csy9OuqHOZXdYwAkmb/mr3rybzhQLqCR67c3IaTria40rhenziwPZ9xZXlvVJBVY9NsXj/tb5jvvx5PxywxaFJFFn+hcsfXokyw9i64iNDJShraxU9mSr5REB09+Ur+K63ugplv+5CCRIPDC43yaWkBOxc9cCy9gvRx6Pfvy9Nk8wA93/llx5vNl/+cl2kxRpq9ueB5Nx16GWSpFWwWL36BBmZtEJjKclD3j7OeRjGjomnsplHbUEBhpmmZ+toaVdrj0xf/IbfHyTjA/Q5pfe0knUURSVECUqmq1wEgRPPRORCredcoHzVVVzm2k6VGFVuH1OzK6edBmMCrIUA+ZN+ql+lMfa2Te0Kgi3h4IEP9IXHFB8R07a+JObfvOGjUrYEZ4DcaTA4AO//jIVv7vaDosGgFPnjX2vJN7XDrseibaH9S54C63FAZHnIgLBdw2jfxtaHL8SMIIyLmLvkKDnvxwkh6e2yTFQXPzebPMQy+khXkk6gfzu1vVLLfhTOiJ5Z3vE85bpCotykatBGGnvJzQKFvVZQf2Lt3QXpuMzkUso2WkxNreQDJ5J4OhMk+wz4GUu3OcxHvKiBSwgRN/aNSabeKwLGZdWnd5WqFgbYntknaCbV/Qxl4zSwU79R8hC2ZfAlg8jT73kift7PmiW3sjB5K4+9tKVOhn4gqX0f9qyTxQNkTmGOpDe5Mr2uaoOJT5gztqlIPC/qZ+m4Il83oyrtwl0vkcchsxWNno7FMv95zRItlE2wHa0rHK4QobiY6FhV9FqRBDB68u9J3z0U6Qm/862c+aFyWTvzNKxyUyWe7bYuhboJncyjCSHlWrkHRS2L4C7JfapoYGGDJP4oIC+mF49RqDRNTOGLUFp2f3QpQM8s=',
+  'wxIv' => '753xjVcA2Bz9B7dQqlyGkQ==',
+  'sessionKey' => '7b1dnMRzgnGj0zuPR4Tmkw==',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Home->uploadUserInfo[ D:\wamp64\www\walk\application\index\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017000s ] mysql:host=47.97.102.161;port=3306;dbname=walk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openId` = '15189752925' LIMIT 1 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `name`='ruik',`headImage`='http://123123',`loginDate`='2018-09-17 18:36:18'  WHERE  `openId` = '15189752925' [ RunTime:0.017000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_step_log` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17'  AND `type` = 0 LIMIT 1 [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT SUM(step) AS tp_sum FROM `user_step_log` WHERE  `openId` = '15189752925'  AND `date` = '2018-09-17' LIMIT 1 [ RunTime:0.014000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `stepNumber`='1900'  WHERE  `openid` = '15189752925' [ RunTime:0.017000s ]
+[ sql ] [ SQL ] SELECT `headImage` FROM `user` WHERE  `shareOpenId` = '15189752925' ORDER BY id desc LIMIT 4 [ RunTime:0.013000s ]

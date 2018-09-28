@@ -1,0 +1,87 @@
+---------------------------------------------------------------
+[ 2018-09-12T14:14:07+08:00 ] 0.0.0.0 GET /walk/test
+[ info ] localhost/walk/test [运行时间：0.417000s][吞吐率：2.40req/s] [内存消耗：2,334.94kb] [文件加载：37]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '_ga=GA1.1.581352692.1493867060; pgv_pvi=6185861120; AdminUbsNamePanyNo=8c5aad0aaf188bcebd188700f90cfb0b33e594ac; session_id_ip=edb814a4afb723d77be6f83d1ce494e0; ECS[visit_times]=3; bdshare_firstime=1529393285549; PHPSESSID=kk51aigg5g7sl18fu8c95g6sp2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->test[ D:\wamp64\www\walk\application\index\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-12T14:14:52+08:00 ] 0.0.0.0 GET /walk/test
+[ info ] localhost/walk/test [运行时间：0.557000s][吞吐率：1.80req/s] [内存消耗：2,415.95kb] [文件加载：38]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '_ga=GA1.1.581352692.1493867060; pgv_pvi=6185861120; AdminUbsNamePanyNo=8c5aad0aaf188bcebd188700f90cfb0b33e594ac; session_id_ip=edb814a4afb723d77be6f83d1ce494e0; ECS[visit_times]=3; bdshare_firstime=1529393285549; PHPSESSID=kk51aigg5g7sl18fu8c95g6sp2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-12T14:17:08+08:00 ] 0.0.0.0 GET /walk/index/Test/test
+[ info ] localhost/walk/index/Test/test [运行时间：0.533000s][吞吐率：1.88req/s] [内存消耗：2,412.88kb] [文件加载：38]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-12T14:18:51+08:00 ] 0.0.0.0 GET /walk/test
+[ info ] localhost/walk/test [运行时间：0.333000s][吞吐率：3.00req/s] [内存消耗：2,334.92kb] [文件加载：37]
+[ info ] [ LANG ] D:\wamp64\www\walk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '_ga=GA1.1.581352692.1493867060; pgv_pvi=6185861120; AdminUbsNamePanyNo=8c5aad0aaf188bcebd188700f90cfb0b33e594ac; session_id_ip=edb814a4afb723d77be6f83d1ce494e0; ECS[visit_times]=3; bdshare_firstime=1529393285549; PHPSESSID=kk51aigg5g7sl18fu8c95g6sp2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->test[ D:\wamp64\www\walk\application\index\controller\Test.php ]
+[ info ] [ LOG ] INIT File

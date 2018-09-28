@@ -1,0 +1,20 @@
+----------------start---------------------
+2018-09-18 11:22:51======>>>>>>>解密失败：Argument 1 passed to app\index\controller\CommonController::__construct() must be an instance of think\Request, array given, called in D:\wamp64\www\walk\application\index\controller\WeChat.php on line 16 and defined
+-----------------end----------------------
+
+----------------start---------------------
+2018-09-18 11:23:51======>>>>>>>解密失败：Argument 1 passed to app\index\controller\CommonController::__construct() must be an instance of think\Request, none given, called in D:\wamp64\www\walk\application\index\model\User.php on line 68 and defined
+-----------------end----------------------
+
+----------------start---------------------
+2018-09-18 11:37:00======>>>>>>>解密失败：Argument 1 passed to app\index\controller\WeChat::__construct() must be an instance of think\Request, array given, called in D:\wamp64\www\walk\application\index\model\User.php on line 68 and defined
+-----------------end----------------------
+
+----------------start---------------------
+2018-09-18 11:37:41======>>>>>>>解密失败：Argument 1 passed to app\index\controller\WeChat::__construct() must be an instance of think\Request, array given, called in D:\wamp64\www\walk\application\index\model\User.php on line 68 and defined
+-----------------end----------------------
+
+----------------start---------------------
+2018-09-18 11:42:35======>>>>>>>微信步数解密：0
+-----------------end----------------------
+
